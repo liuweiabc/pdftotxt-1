@@ -30,11 +30,11 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.public_header_files = 'pdftotxt/Classes/*.h'
+  s.public_header_files = 'WTRpdfLib/Classes/*.h'
 
-  s.source_files = 'pdftotxt/Classes/**/*'
+  s.source_files = 'WTRpdfLib/Classes/**/*'
 
-  s.resources    = 'pdftotxt/Assets/WTRXPDF.bundle'
+  s.resources    = 'WTRpdfLib/Assets/WTRXPDF.bundle'
 
   s.frameworks = 'Foundation'
   

@@ -1,0 +1,16 @@
+#----- begin Chinese Simplified support package (2011-sep-02)
+cidToUnicode    Adobe-GB1    @Library/xFonts/Adobe-GB1.cidToUnicode
+unicodeMap    ISO-2022-CN    @Library/xFonts/ISO-2022-CN.unicodeMap
+unicodeMap    EUC-CN         @Library/xFonts/EUC-CN.unicodeMap
+unicodeMap    GBK            @Library/xFonts/GBK.unicodeMap
+cMapDir        Adobe-GB1     @Library/xFonts/CMap
+toUnicodeDir                 @Library/xFonts/CMap
+#fontFileCC    Adobe-GB1    /usr/..../NotoSansCJKsc-Regular.otf
+#----- end Chinese Simplified support package
+
+textEncoding UTF-8
+textEOL mac
+
+textPageBreaks no
+
+
