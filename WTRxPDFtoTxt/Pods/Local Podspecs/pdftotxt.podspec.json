@@ -1,8 +1,8 @@
 {
   "name": "pdftotxt",
   "version": "0.1.0",
-  "summary": "A short description of pdftotxt.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "PDF转文字，基于xpdf",
+  "description": "PDF转文字，基于xpdf",
   "homepage": "https://github.com/zhong015/pdftotxt",
   "license": {
     "type": "MIT",
