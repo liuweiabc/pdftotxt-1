@@ -1,5 +1,7 @@
 PODS:
-  - pdftotxt (0.1.0)
+  - pdftotxt (0.1.3):
+    - pdftotxt/xpdf (= 0.1.3)
+  - pdftotxt/xpdf (0.1.3)
 
 DEPENDENCIES:
   - pdftotxt (from `../`)
@@ -9,7 +11,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  pdftotxt: 1403e1ab403541b6ba166c3b419a6b19d91e0b59
+  pdftotxt: fe108ba4238caf616b519fc7aeb99e690b9289bc
 
 PODFILE CHECKSUM: 96d7bf7e779cc36f4b69e1e3aabc4f218d0b74d5
 

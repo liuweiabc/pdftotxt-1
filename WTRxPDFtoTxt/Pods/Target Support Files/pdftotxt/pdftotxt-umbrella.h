@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "WTRPDFManager.h"
 #import "WTRxPDFManager.h"
 
 FOUNDATION_EXPORT double pdftotxtVersionNumber;

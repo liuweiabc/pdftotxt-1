@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'pdftotxt'
-  s.version          = '0.1.1'
+  s.version          = '0.1.3'
   s.summary          = 'PDF转文字'
 
 # This description is used to generate tags and improve search results.
@@ -30,15 +30,17 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.public_header_files = 'WTRpdfLib/Classes/*.h'
+  s.public_header_files = 'WTRpdfLib/*.h'
+  s.source_files = 'WTRpdfLib/*.{h,m}'
 
-  s.source_files = 'WTRpdfLib/Classes/**/*'
+  s.subspec 'xpdf' do |ss|
+    ss.public_header_files = 'WTRpdfLib/Classes/*.h'
+    ss.source_files = 'WTRpdfLib/Classes/**/*'
+  end
 
   s.resources    = 'WTRpdfLib/Assets/WTRXPDF.bundle'
 
   s.frameworks = 'Foundation'
-  
-  # s.dependency 'AFNetworking', '~> 2.3'
 
   s.compiler_flags = '-Wno-shorten-64-to-32','-Wno-conditional-uninitialized'
 

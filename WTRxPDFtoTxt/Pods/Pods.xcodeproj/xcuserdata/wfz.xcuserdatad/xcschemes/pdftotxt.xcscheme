@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "970E661D910095FF25C3148701B7317B"
+               BlueprintIdentifier = "9A189DE049640D519667EE7AF43FDFCE"
                BuildableName = "pdftotxt.framework"
                BlueprintName = "pdftotxt"
                ReferencedContainer = "container:Pods.xcodeproj">

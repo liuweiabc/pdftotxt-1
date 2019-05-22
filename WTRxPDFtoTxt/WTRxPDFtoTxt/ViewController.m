@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "WTRxPDFManager.h"
+#import "WTRPDFManager.h"
 
 @interface ViewController ()
 
@@ -21,11 +21,11 @@
 
     NSString *pdfPath=[[NSBundle mainBundle] pathForResource:@"qwe" ofType:@"pdf"];
 
-    NSInteger num=[WTRxPDFManager GetNumPagesWithPDFPath:pdfPath];
+    NSInteger num=[WTRPDFManager GetNumPagesWithPDFPath:pdfPath];
 
     NSLog(@"页数:%d",(int)num);
 
-    NSString *str=[WTRxPDFManager GetStringWithBeginPage:1 EndPage:num PDFPath:pdfPath];
+    NSString *str=[WTRPDFManager GetStringWithBeginPage:1 EndPage:num PDFPath:pdfPath];
 
     NSLog(@"%@",str);
 }
