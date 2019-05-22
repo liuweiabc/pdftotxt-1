@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7158568DC1F3E9EF64CED681 /* Pods_WTRxPDFtoTxt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6CA078A3AEBDCCA4A0B0F97 /* Pods_WTRxPDFtoTxt.framework */; };
+		D2729AFB22950AE300F01010 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2729AFA22950AE300F01010 /* AppDelegate.m */; };
+		D2729AFE22950AE300F01010 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2729AFD22950AE300F01010 /* ViewController.m */; };
+		D2729B0122950AE300F01010 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2729AFF22950AE300F01010 /* Main.storyboard */; };
+		D2729B0322950AE400F01010 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2729B0222950AE400F01010 /* Assets.xcassets */; };
+		D2729B0622950AE400F01010 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2729B0422950AE400F01010 /* LaunchScreen.storyboard */; };
+		D2729B0922950AE400F01010 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2729B0822950AE400F01010 /* main.m */; };
+		D2729B1022950C7A00F01010 /* qwe.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D2729B0F22950C7900F01010 /* qwe.pdf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4776DC01E42BCEBA6D88D3FF /* Pods-WTRxPDFtoTxt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WTRxPDFtoTxt.debug.xcconfig"; path = "Target Support Files/Pods-WTRxPDFtoTxt/Pods-WTRxPDFtoTxt.debug.xcconfig"; sourceTree = "<group>"; };
+		D2729AF622950AE300F01010 /* WTRxPDFtoTxt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WTRxPDFtoTxt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2729AF922950AE300F01010 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D2729AFA22950AE300F01010 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D2729AFC22950AE300F01010 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D2729AFD22950AE300F01010 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D2729B0022950AE300F01010 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2729B0222950AE400F01010 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2729B0522950AE400F01010 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D2729B0722950AE400F01010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2729B0822950AE400F01010 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D2729B0F22950C7900F01010 /* qwe.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = qwe.pdf; sourceTree = "<group>"; };
+		D66DEF3EDA1E9BE12101C588 /* Pods-WTRxPDFtoTxt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WTRxPDFtoTxt.release.xcconfig"; path = "Target Support Files/Pods-WTRxPDFtoTxt/Pods-WTRxPDFtoTxt.release.xcconfig"; sourceTree = "<group>"; };
+		F6CA078A3AEBDCCA4A0B0F97 /* Pods_WTRxPDFtoTxt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WTRxPDFtoTxt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2729AF322950AE300F01010 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7158568DC1F3E9EF64CED681 /* Pods_WTRxPDFtoTxt.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		910D745C191AB020BFC769A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4776DC01E42BCEBA6D88D3FF /* Pods-WTRxPDFtoTxt.debug.xcconfig */,
+				D66DEF3EDA1E9BE12101C588 /* Pods-WTRxPDFtoTxt.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D2729AED22950AE200F01010 = {
+			isa = PBXGroup;
+			children = (
+				D2729B0F22950C7900F01010 /* qwe.pdf */,
+				D2729AF822950AE300F01010 /* WTRxPDFtoTxt */,
+				D2729AF722950AE300F01010 /* Products */,
+				910D745C191AB020BFC769A9 /* Pods */,
+				F6B3DBBE4280083AF076DB89 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D2729AF722950AE300F01010 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2729AF622950AE300F01010 /* WTRxPDFtoTxt.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2729AF822950AE300F01010 /* WTRxPDFtoTxt */ = {
+			isa = PBXGroup;
+			children = (
+				D2729AF922950AE300F01010 /* AppDelegate.h */,
+				D2729AFA22950AE300F01010 /* AppDelegate.m */,
+				D2729AFC22950AE300F01010 /* ViewController.h */,
+				D2729AFD22950AE300F01010 /* ViewController.m */,
+				D2729AFF22950AE300F01010 /* Main.storyboard */,
+				D2729B0222950AE400F01010 /* Assets.xcassets */,
+				D2729B0422950AE400F01010 /* LaunchScreen.storyboard */,
+				D2729B0722950AE400F01010 /* Info.plist */,
+				D2729B0822950AE400F01010 /* main.m */,
+			);
+			path = WTRxPDFtoTxt;
+			sourceTree = "<group>";
+		};
+		F6B3DBBE4280083AF076DB89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6CA078A3AEBDCCA4A0B0F97 /* Pods_WTRxPDFtoTxt.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2729AF522950AE300F01010 /* WTRxPDFtoTxt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2729B0C22950AE400F01010 /* Build configuration list for PBXNativeTarget "WTRxPDFtoTxt" */;
+			buildPhases = (
+				5FB7B9683F9C6086E84EAA99 /* [CP] Check Pods Manifest.lock */,
+				D2729AF222950AE300F01010 /* Sources */,
+				D2729AF322950AE300F01010 /* Frameworks */,
+				D2729AF422950AE300F01010 /* Resources */,
+				0AAF697ECD3A2FB34DD894D5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WTRxPDFtoTxt;
+			productName = WTRxPDFtoTxt;
+			productReference = D2729AF622950AE300F01010 /* WTRxPDFtoTxt.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2729AEE22950AE200F01010 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = wfz;
+				TargetAttributes = {
+					D2729AF522950AE300F01010 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = D2729AF122950AE200F01010 /* Build configuration list for PBXProject "WTRxPDFtoTxt" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2729AED22950AE200F01010;
+			productRefGroup = D2729AF722950AE300F01010 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2729AF522950AE300F01010 /* WTRxPDFtoTxt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2729AF422950AE300F01010 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2729B1022950C7A00F01010 /* qwe.pdf in Resources */,
+				D2729B0622950AE400F01010 /* LaunchScreen.storyboard in Resources */,
+				D2729B0322950AE400F01010 /* Assets.xcassets in Resources */,
+				D2729B0122950AE300F01010 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AAF697ECD3A2FB34DD894D5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WTRxPDFtoTxt/Pods-WTRxPDFtoTxt-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/pdftotxt/pdftotxt.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pdftotxt.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WTRxPDFtoTxt/Pods-WTRxPDFtoTxt-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FB7B9683F9C6086E84EAA99 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WTRxPDFtoTxt-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2729AF222950AE300F01010 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2729AFE22950AE300F01010 /* ViewController.m in Sources */,
+				D2729B0922950AE400F01010 /* main.m in Sources */,
+				D2729AFB22950AE300F01010 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D2729AFF22950AE300F01010 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2729B0022950AE300F01010 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D2729B0422950AE400F01010 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2729B0522950AE400F01010 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2729B0A22950AE400F01010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D2729B0B22950AE400F01010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2729B0D22950AE400F01010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4776DC01E42BCEBA6D88D3FF /* Pods-WTRxPDFtoTxt.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ED6U86NK2U;
+				INFOPLIST_FILE = WTRxPDFtoTxt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wfz.WTRxPDFtoTxt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2729B0E22950AE400F01010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D66DEF3EDA1E9BE12101C588 /* Pods-WTRxPDFtoTxt.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ED6U86NK2U;
+				INFOPLIST_FILE = WTRxPDFtoTxt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wfz.WTRxPDFtoTxt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2729AF122950AE200F01010 /* Build configuration list for PBXProject "WTRxPDFtoTxt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2729B0A22950AE400F01010 /* Debug */,
+				D2729B0B22950AE400F01010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2729B0C22950AE400F01010 /* Build configuration list for PBXNativeTarget "WTRxPDFtoTxt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2729B0D22950AE400F01010 /* Debug */,
+				D2729B0E22950AE400F01010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2729AEE22950AE200F01010 /* Project object */;
+}

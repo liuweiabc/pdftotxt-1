@@ -1,0 +1,16 @@
+PODS:
+  - pdftotxt (0.1.0)
+
+DEPENDENCIES:
+  - pdftotxt (from `../`)
+
+EXTERNAL SOURCES:
+  pdftotxt:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  pdftotxt: 076cd5ec554e40f04897f7bc5b9302d916a25400
+
+PODFILE CHECKSUM: 96d7bf7e779cc36f4b69e1e3aabc4f218d0b74d5
+
+COCOAPODS: 1.6.1

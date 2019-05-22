@@ -1,0 +1,1429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		008A4621FAC27A09C82B4A9D696011C6 /* GfxState.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ABCBFB1ED6EBFE86CA35E41B71ADD1C /* GfxState.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		00CD1D36EA0D8CBCF9F22200C22500A3 /* FoFiType1.h in Headers */ = {isa = PBXBuildFile; fileRef = ED83BBC21C9A759838946A2E66786BA4 /* FoFiType1.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		030898EAC4FB4A2C2D17ECDF9D3552B2 /* GString.h in Headers */ = {isa = PBXBuildFile; fileRef = F4930A7B4239BD68691C222D99BFBBA4 /* GString.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		03AAB7A2050B4E596237E317E2C4C070 /* aconf2.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BA4D922AFCE85338F1385A22A55782C /* aconf2.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0484871D8D4E371847435E7DCD55E830 /* pdftotxt-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D1BAF0024D247FFC6680631056F66592 /* pdftotxt-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0569E0FAC35D307F20145313F8F9BC6A /* PDFCore.cc in Sources */ = {isa = PBXBuildFile; fileRef = B3BFDEC52160AA0AFBDAEBB15179EBF1 /* PDFCore.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		05945EB6419916EF5D74CE849460DBC5 /* pdfinfo.cc in Sources */ = {isa = PBXBuildFile; fileRef = 0CC250C8F6355DEF00170CFC2CB84FBB /* pdfinfo.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		06FCFE053EE91B6615103BFC3C48B814 /* aconf.h in Headers */ = {isa = PBXBuildFile; fileRef = 4880919DBC9220E08A31DAF6AAF0303B /* aconf.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		078B6D79399C4C31FD194767E10D0C00 /* Function.h in Headers */ = {isa = PBXBuildFile; fileRef = 79F36B5D163D3A2C4F553E7D678CAA08 /* Function.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		08F40CABE3A96B6CE5CBD22DE1014F44 /* FixedPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 30EFD69A91F5EC00560BBDA69420FB03 /* FixedPoint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		09076CCF887C9130AED5F1751435C266 /* BuiltinFontTables.h in Headers */ = {isa = PBXBuildFile; fileRef = 327875F7706A6FD20FD172A9B3FE31B5 /* BuiltinFontTables.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0921F6E07C23965B748B37F69A47F28D /* Form.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E7D97BEF6974BCFC69D057F7D35C4C5 /* Form.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0A4BD1FB7E6506C4F6B6B8E3ADF1EC1C /* Stream.h in Headers */ = {isa = PBXBuildFile; fileRef = B95147554A45ED27E53DDAB65C51F296 /* Stream.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0A93BCB929A4621132B34F0E3DE48D5D /* PDFDocEncoding.cc in Sources */ = {isa = PBXBuildFile; fileRef = 6AF690A804DD2DAB912D1E2EC1C75A38 /* PDFDocEncoding.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		0AA558E85DC5025681ECCFC925932BCC /* PDFDoc.h in Headers */ = {isa = PBXBuildFile; fileRef = 081B248A0240C3B7E36AFC511BFBB8AC /* PDFDoc.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0B07EFB38FCC534776514F38D12BC454 /* PDF417Barcode.cc in Sources */ = {isa = PBXBuildFile; fileRef = 6A02469D44ED6F750CFA4220C1B5114D /* PDF417Barcode.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		0B114D223A528B71C2A526FA0A3371AD /* Splash.cc in Sources */ = {isa = PBXBuildFile; fileRef = 7A6E2F853756798166AA6E9F2188FCE8 /* Splash.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		0C931F749E5CB5635C172AD9AD7DC009 /* TextOutputDev.h in Headers */ = {isa = PBXBuildFile; fileRef = 07FD992377EEE72F8B8A645EB85C21EF /* TextOutputDev.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0F5FE6D1AC951CE03AB0B991C0565DDE /* FoFiType1C.cc in Sources */ = {isa = PBXBuildFile; fileRef = 213F8AF36EEB51343EA99AF2B28CC012 /* FoFiType1C.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		0FF2F9DA86973B9800D876DE03639CC2 /* SplashFontFile.cc in Sources */ = {isa = PBXBuildFile; fileRef = EDAD2143923F66004FE2CD6F78414935 /* SplashFontFile.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		12009DF73BDE4E42E933E35E836223B5 /* SplashXPath.cc in Sources */ = {isa = PBXBuildFile; fileRef = E478DE9085B90011F3F8D0EFD803477D /* SplashXPath.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		159AD9D9BBA69B161E7E9695C8D3AD1B /* gmem.h in Headers */ = {isa = PBXBuildFile; fileRef = C54A81D119980A15E6E289B26BB05543 /* gmem.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		167666C51B0561138B02A40D07DC12CC /* Object.cc in Sources */ = {isa = PBXBuildFile; fileRef = 85E4895ACD49452F2C7D5D83279E2821 /* Object.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		1A9E000436CD8764A9EB0DBBA2762DF7 /* PSTokenizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 969A6160B184B8B6270C90E7BF181253 /* PSTokenizer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1FE8B9934C263C91BEAA96160BD95720 /* NameToCharCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 29C0289FF2C763D7565A37951AC07286 /* NameToCharCode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		204B1F33CFB24D7C1B07E29747CBEAAA /* FoFiEncodings.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4662571820919714CB1D7E284481E0D7 /* FoFiEncodings.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		20FCBFCFEAE222BA81CA0773A20DE0E9 /* pdffonts.cc in Sources */ = {isa = PBXBuildFile; fileRef = 61E884197EDDDD4308C00280BA48EC29 /* pdffonts.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		227021CBA3F4CCBF3BAD6CEBC84D9FBF /* PDF417Barcode.h in Headers */ = {isa = PBXBuildFile; fileRef = DEB800352F8855792D3B9B45B47C1820 /* PDF417Barcode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		24C004121AAAA52DE5773C3461B00D8A /* PDFDoc.cc in Sources */ = {isa = PBXBuildFile; fileRef = E4D2BC20E404432E80F6511C78766647 /* PDFDoc.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		2713AA69CF8E599DD61AA8592D2E5A94 /* Lexer.cc in Sources */ = {isa = PBXBuildFile; fileRef = B928F26B67F86631ADD2A83F799E3CBE /* Lexer.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		28A6A9E8DED4EB837340ABD1C74A638C /* NameToCharCode.cc in Sources */ = {isa = PBXBuildFile; fileRef = 82EB3E8C2E058B9BCDF167A09D70409F /* NameToCharCode.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		294F1365196D96C5DF5ED5BB0E002152 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		29A1D01AD1F0BF2281E348AEE23D674D /* SplashPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 470DEB615A6D67F1819A6B045AC733F2 /* SplashPath.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		29C44AEACA21BB16FE8FD208C6D8AF92 /* SplashTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A092D5FFEB6EA7BBB7486363547C763 /* SplashTypes.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		29C91DCFB44DA96F41E9662753BE8FFC /* PSOutputDev.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E00BBC4538DD7650F896DD29B5B862E /* PSOutputDev.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2A40D067F0E7B4D75AF9A23A74E42004 /* TileMap.h in Headers */ = {isa = PBXBuildFile; fileRef = CD6D673EB6E42556524F00C023AD830B /* TileMap.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2D4E37F3B1CF1D0BD232181168289669 /* SplashGlyphBitmap.h in Headers */ = {isa = PBXBuildFile; fileRef = 481C11F4BED80902741DFE4993DA720F /* SplashGlyphBitmap.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2FAC434E3434D72946B48725A5AE92B9 /* Link.h in Headers */ = {isa = PBXBuildFile; fileRef = E5C7D6D5E021987D4AD910364FF608D6 /* Link.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3155815E3F7E363B27F5E299E40E5B40 /* TextOutputDev.cc in Sources */ = {isa = PBXBuildFile; fileRef = D283A23EE2C15FCFD853AC252AD8A846 /* TextOutputDev.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		316B436ED54D4D5ECD617966AB9DCFBB /* Error.h in Headers */ = {isa = PBXBuildFile; fileRef = 94EA9AF5A4552A9A2AB5390B86F01271 /* Error.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		33C19BF3AFC1627E63C65EFA888D57CF /* PreScanOutputDev.cc in Sources */ = {isa = PBXBuildFile; fileRef = A8C82CD1364698B438B18EC978A67939 /* PreScanOutputDev.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		34D0D27DF5CCE3189BA558981C366F9B /* SplashFTFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A92A1AB8B6FCE0185A7BFC1ABA3E3CF /* SplashFTFont.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3580B92980350110ED464673C13144EC /* CharTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = A78DAD8A5A2C15710E6D92A908264889 /* CharTypes.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		36B9164D7923339A07E33BF25A0FEFA5 /* DisplayState.h in Headers */ = {isa = PBXBuildFile; fileRef = E7E0E99D46F1339C961985E9C94133C1 /* DisplayState.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		398F918CF06B5FEAF34455C35119B645 /* AcroForm.h in Headers */ = {isa = PBXBuildFile; fileRef = BBD95E695159E2E2C0CF0EB065686769 /* AcroForm.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		39EA94ADE9255758ED4510F7639AD0A2 /* SplashClip.h in Headers */ = {isa = PBXBuildFile; fileRef = 9090864177B334218AA80472E79B7C44 /* SplashClip.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3F16E4A0D05626437EEBA2D0B48FD147 /* gmempp.cc in Sources */ = {isa = PBXBuildFile; fileRef = CEAE545FF82A74896CE2A680F324A22C /* gmempp.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		3FA8F13839068C30F7053018B85BA96D /* Pods-WTRxPDFtoTxt-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 10168426473969421E0A42FCBA997AFD /* Pods-WTRxPDFtoTxt-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41EB1AA31F9D6837948205A4209855B2 /* OutputDev.cc in Sources */ = {isa = PBXBuildFile; fileRef = 9CF2A3B48C2774539D2912B2A656E9DE /* OutputDev.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		43B9E4007B1E38D96ECF794D091D1BE8 /* SplashState.h in Headers */ = {isa = PBXBuildFile; fileRef = 546BF8FB3C33B554FF8ED3A1B6815B49 /* SplashState.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		449DDDD2EE7FBA07DEF21715746F0640 /* Annot.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E8035611416FEA21503B5FDF3B07CA6 /* Annot.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4687052B35B82A4FADCD02A3387292EF /* XRef.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3934C816ED0ECF8C77E099536BA16D68 /* XRef.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		479172D82866D1EFE4731CEF502E8766 /* PDFDocEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = DC92AD234C643FD9835C774E49B7B403 /* PDFDocEncoding.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4992B0C8EDF6ECFC084E2478DE88F155 /* SplashFTFont.cc in Sources */ = {isa = PBXBuildFile; fileRef = 59E8719CD59F9E304A2343CDE7E0E95A /* SplashFTFont.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		4AB016966A064830E1BA09D7B73150B1 /* CharCodeToUnicode.h in Headers */ = {isa = PBXBuildFile; fileRef = DAEB8AB512EC755026D2B99B89F0A1B3 /* CharCodeToUnicode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4C7658A97F9E3CAD414972D8738D9104 /* GfxFont.cc in Sources */ = {isa = PBXBuildFile; fileRef = C1879293B6D65770DA4958DC153544EE /* GfxFont.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		5340B7F9AF3C3EE87A3362B75F86970F /* SplashOutputDev.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4C4D8662B7B943217B7249A144CB91AB /* SplashOutputDev.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		536D08C416F6937530FB7D7944F47DCB /* DisplayState.cc in Sources */ = {isa = PBXBuildFile; fileRef = 1CA1D230DC1188C68A4869398513372D /* DisplayState.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		553F2D28DB4972D3269F212DF436AD31 /* FixedPoint.cc in Sources */ = {isa = PBXBuildFile; fileRef = 59F9ACB1968742F247CBF3055AF18A3E /* FixedPoint.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		5566CA06385E7D5FF96F7CBEE1EB313B /* Array.h in Headers */ = {isa = PBXBuildFile; fileRef = 33DA2A25D5EDEE408D92C7A6124F1B89 /* Array.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		562F673E3C4D56C6A13C77A39B24A741 /* pdftotxt-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E9803C87EF48245DA0D83279C5D2ABF3 /* pdftotxt-dummy.m */; };
+		5894BC993DF056108B5D0F2B08FA0C55 /* UnicodeTypeTable.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3DFD130D1326492F36E98FC6FF20A788 /* UnicodeTypeTable.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		5A224A50EA5E948B3166EC9C938AEF3C /* ImageOutputDev.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4640C57AB9D9B3AC9B80F7C4405DDE24 /* ImageOutputDev.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		5AD70C33E6FC965A383CCCE7FF3F2C53 /* AcroForm.cc in Sources */ = {isa = PBXBuildFile; fileRef = 1E9642A06B156F37C924B35DFB781C89 /* AcroForm.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		5BADC58C667F20D3EF8AF3D0C9EE67B5 /* pdfdetach.cc in Sources */ = {isa = PBXBuildFile; fileRef = 77B40AB748FCBA9E1900998964BDD2EA /* pdfdetach.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		5C311D4CADA3E08F0F0E4836C21E90F0 /* JArithmeticDecoder.cc in Sources */ = {isa = PBXBuildFile; fileRef = 90FB550B63A241D073D5A917E8E5A9F2 /* JArithmeticDecoder.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		5C3AB4DD5AEFAC6C6AD214E1C357E03F /* Page.h in Headers */ = {isa = PBXBuildFile; fileRef = EFDFB906B1599763593C1A50C4EB91FE /* Page.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5D63EF0691AF5FECE4DC3F10D6C0F0AB /* TileCache.h in Headers */ = {isa = PBXBuildFile; fileRef = DA2492F138BFAD137BEA7791512EF605 /* TileCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6024C4B693345C3046ED6CC090366B75 /* BuiltinFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 3602AA92659C73BD4A01588E9B2E397C /* BuiltinFont.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		60C264230391ED3FC0905488B6D99522 /* CharCodeToUnicode.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4F15BD5F966FA136B67F1A9B65C1385E /* CharCodeToUnicode.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		6228E7A12A99F82813C6B5186D37694D /* OptionalContent.h in Headers */ = {isa = PBXBuildFile; fileRef = EAA5BA08820F2E1AC7EA43B67AD51B77 /* OptionalContent.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		62FD7FBE124EA4A1FC977B6D4D9197B5 /* GlobalParams.cc in Sources */ = {isa = PBXBuildFile; fileRef = C2985670BEDBFBDFEF00406008DC31BA /* GlobalParams.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		647D25C3877DA6955801BB4A150E553D /* Splash.h in Headers */ = {isa = PBXBuildFile; fileRef = AB36CB50EDF221A170C3CD350584CE43 /* Splash.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		64C7747300E3E59E35899A9D7CE506B8 /* Dict.h in Headers */ = {isa = PBXBuildFile; fileRef = 298771C14B5D715BBBC9FEDE69E223DE /* Dict.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6508B853B3C5530B47A46E6329A0C8E5 /* Decrypt.cc in Sources */ = {isa = PBXBuildFile; fileRef = 69235FC693A463C75524B2E7A40FAE71 /* Decrypt.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		65BAD40D4F71008EBFC518160C1C44CB /* SplashBitmap.cc in Sources */ = {isa = PBXBuildFile; fileRef = 9DE7EC3547D123C873350C0F7E2E7D80 /* SplashBitmap.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		65BC3CD8A8FD2A68A747333712496F2D /* TextString.h in Headers */ = {isa = PBXBuildFile; fileRef = D86E143CBFC06A9660B7B8D112D1F1B1 /* TextString.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		65CA454343B39F33636D55B4B52E92D1 /* UTF8.cc in Sources */ = {isa = PBXBuildFile; fileRef = 744F3E8434F25324A8A855326A87280B /* UTF8.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		674F8A4921F9FC1AF847352CD2C7A2DC /* Catalog.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2170434D103217AFD3082B48095CBEAA /* Catalog.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		680BF14D837271E9A4780F01EC7B30AC /* SplashScreen.cc in Sources */ = {isa = PBXBuildFile; fileRef = 71C79709B28EECD2C5926A6FB7BED274 /* SplashScreen.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		682D835FFDE846DC4DEA1D044DAE0D60 /* Stream.cc in Sources */ = {isa = PBXBuildFile; fileRef = A99F705AF2A37E7FC4E9826551BCDDD2 /* Stream.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		6922C74392A24153C312DED9911AAF19 /* SplashFontFile.h in Headers */ = {isa = PBXBuildFile; fileRef = DF0D91C887EFDC9A37B7EEB8D6D8DA48 /* SplashFontFile.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6A7D050FC94C2F1C278421701D893709 /* Link.cc in Sources */ = {isa = PBXBuildFile; fileRef = 9A14DA0ACC34391DD9305856B98FBA07 /* Link.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		6B459CD870C33E0898FC0B8CCC7AFF97 /* NameToUnicodeTable.h in Headers */ = {isa = PBXBuildFile; fileRef = D481F5B1514ABA6FEEC3DE3DDFC1DFF8 /* NameToUnicodeTable.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6CB7577436D240017B646E9571E50E72 /* Array.cc in Sources */ = {isa = PBXBuildFile; fileRef = 82E80B1C90CDFDC52FE73E8C8DF44203 /* Array.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		6CD04C5523A5BF5C1361A0CE601079AF /* FoFiIdentifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B64373DDC203A637AD7A1690122E5AF /* FoFiIdentifier.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6FBA04132401B0E2BF77327148EF0010 /* FoFiBase.cc in Sources */ = {isa = PBXBuildFile; fileRef = 9FF17FA62F11C19CEA4E590B7842CB90 /* FoFiBase.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		71F8AFE23712A6843D06E26F66EE2188 /* OptionalContent.cc in Sources */ = {isa = PBXBuildFile; fileRef = B9BCC83D4CA4AC2A5C74AD68EB68D734 /* OptionalContent.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		727793B3ACDD5C7BF97997228358D98B /* gfile.h in Headers */ = {isa = PBXBuildFile; fileRef = A7A8828EF0D95FEF9412358541786A34 /* gfile.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		728D40948EEC7F974A760811839C364A /* JPXStream.cc in Sources */ = {isa = PBXBuildFile; fileRef = 223BB865BA745F5EEB8AEE9887F2385D /* JPXStream.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		72AA9EDC5AE4169E0F00B9C3417E0F12 /* gmempp.h in Headers */ = {isa = PBXBuildFile; fileRef = 6637AFC7E34E1C1E540B70A6264C97E1 /* gmempp.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		74B77FAA147E02705512312572FD8FB4 /* parseargs.h in Headers */ = {isa = PBXBuildFile; fileRef = B3D0406E4FC3292A531E205ED144E7D9 /* parseargs.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		74D30ED50A9E2586D9F0549859E14DFB /* ErrorCodes.h in Headers */ = {isa = PBXBuildFile; fileRef = F19015ED226CA939D82F317E4A6BDA94 /* ErrorCodes.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7578E585E67CB36C127DD7FAF72BFBBF /* CMap.cc in Sources */ = {isa = PBXBuildFile; fileRef = 84C77DD20E7B240CA671585E7706F351 /* CMap.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		77DF5E7E6372F62E96B7EB4396091FDC /* SplashMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 32237AAB84BA878DF833EEFCAE47E101 /* SplashMath.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		78E8C647F5FE1FFCCEF2E9A31C072EDE /* FoFiType1C.h in Headers */ = {isa = PBXBuildFile; fileRef = CB92A5FAA0D62495540337BBB7D7094A /* FoFiType1C.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7BBA07422CBAB7982BDF1535CB3A1061 /* SplashFontFileID.cc in Sources */ = {isa = PBXBuildFile; fileRef = ECB04799E72B34692D0C758387B78CC1 /* SplashFontFileID.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		80DEBCEE3459F75D16174817A25FAE50 /* Pods-WTRxPDFtoTxt-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5DC730FDA8E4D634B5851223A46F9C /* Pods-WTRxPDFtoTxt-dummy.m */; };
+		80E52A4630BB250115607280831CA7CE /* gtypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 496D896DE024174F74C8FFE868875906 /* gtypes.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		81A07A78B2855959BA968C200DCBE90D /* SplashPattern.h in Headers */ = {isa = PBXBuildFile; fileRef = 76FE512289CAE040624E04FB1C2CAE7B /* SplashPattern.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		81E394E44B305A486BA1CAD3D63022A2 /* gmem.cc in Sources */ = {isa = PBXBuildFile; fileRef = A3E46F1577D3E8CD7ED1397189C6E84E /* gmem.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		85145CF00EDDC539474A82EFE0D39948 /* GlobalParams.h in Headers */ = {isa = PBXBuildFile; fileRef = DA2CED08C0166A4F51AD5F32AF9F9E4A /* GlobalParams.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		874B7703176ACCF73D41DCDFFE77C46B /* FoFiBase.h in Headers */ = {isa = PBXBuildFile; fileRef = ACC44B4CD8693F72B130E28E17F6DDD1 /* FoFiBase.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		88F63B96E6DA62B494F59E5D57403811 /* Catalog.h in Headers */ = {isa = PBXBuildFile; fileRef = E7DAA3B785CBD4706DC731FF4B85D67F /* Catalog.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8C69C7C11B810842585D4C755DB9BE60 /* FoFiType1.cc in Sources */ = {isa = PBXBuildFile; fileRef = 264E7A2D5F870E861CD899FC9401A6DB /* FoFiType1.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		8D29C79CE2139E2F7B66E8565088E207 /* Parser.h in Headers */ = {isa = PBXBuildFile; fileRef = 1039316083606E50652DD5597D1E896D /* Parser.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8E4F760BCC4A12D2E359279069D8E866 /* Lexer.h in Headers */ = {isa = PBXBuildFile; fileRef = AFE6218406544DFF182744F6EA201358 /* Lexer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8F99CBAFC1B82FE46ADFEE25980C3A91 /* pdfimages.cc in Sources */ = {isa = PBXBuildFile; fileRef = 54A84B5E046C2326651BB4082184E6E5 /* pdfimages.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		9021AC096C8084965B0E092014660810 /* UnicodeRemapping.h in Headers */ = {isa = PBXBuildFile; fileRef = 1696EA05DCD00C9EF6A033B5ECFBCB4C /* UnicodeRemapping.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		908B74AAD68B6BC83B498CB9F971DC47 /* BuiltinFont.cc in Sources */ = {isa = PBXBuildFile; fileRef = 717C6C5B9BD9FEC266567073F124CFF3 /* BuiltinFont.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		90D83E53D5A7479C80A9F23398D5B370 /* JBIG2Stream.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DBC8B5991BAFB72C27A921CD5735B3B /* JBIG2Stream.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		913497C1F9FAC9782C376BBE8F2294C0 /* UnicodeMapTables.h in Headers */ = {isa = PBXBuildFile; fileRef = C3DCEC525AF3A05168F63F3111228888 /* UnicodeMapTables.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		927C88FC0E2BAF191ED8FBB91CE341B2 /* Parser.cc in Sources */ = {isa = PBXBuildFile; fileRef = 50E43A56DE04AF59FA45DAC677ECFE29 /* Parser.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		93B03C85D37374EC7F72C1A774043202 /* SplashPattern.cc in Sources */ = {isa = PBXBuildFile; fileRef = 0BE0B3130B311A37DA5F793F98F87497 /* SplashPattern.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		93DAE243063DDADE311B79492B3F8A74 /* PDFCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 39C09A17FE669ADAF785E47BA230C03C /* PDFCore.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9724ABE887296509A8519CEF81469370 /* SplashBitmap.h in Headers */ = {isa = PBXBuildFile; fileRef = 15D3819B2BB2ED191BD1FD704A90951B /* SplashBitmap.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9883CDE821CE2980B162C37EC9C649DE /* GHash.h in Headers */ = {isa = PBXBuildFile; fileRef = CF26159E238EF360CE60B78703A40C0B /* GHash.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9D964AF864CD06D5F4C5391BA1283391 /* Zoox.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AEECD3EE0D98C1BE84B436FEE3B9370 /* Zoox.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9EC9AC9AC778C8F5D81545EC45907471 /* JBIG2Stream.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4A3DBC376114255211E85A77F27BAA0C /* JBIG2Stream.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		9EE2E1E6F92AAF528C152FD7318D946D /* BuiltinFontTables.cc in Sources */ = {isa = PBXBuildFile; fileRef = 8FED6706A4317771A9E8020BC1BC41FC /* BuiltinFontTables.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		9FCD046DC7B05D27A8EFC3CE930B5E17 /* GList.h in Headers */ = {isa = PBXBuildFile; fileRef = 594132094F051F9C1C9F95F603B732E6 /* GList.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A11DB6C04133643CC6EE5B2415F69CF5 /* PreScanOutputDev.h in Headers */ = {isa = PBXBuildFile; fileRef = 30A0DC59EFDDBF50B7B59950F026D418 /* PreScanOutputDev.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A1F968AB7EA30209A287C1FE975BFFBE /* GHash.cc in Sources */ = {isa = PBXBuildFile; fileRef = E1B77310A272C84B10F4803D891CD54C /* GHash.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		A40548FEB47CA3D142298F830997E509 /* GString.cc in Sources */ = {isa = PBXBuildFile; fileRef = 748EDBE48F8EC6AA0E283C69515000B5 /* GString.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		A425F7DD4CD2C07C451EE2B2D728BBDA /* PSOutputDev.cc in Sources */ = {isa = PBXBuildFile; fileRef = 8E378227E78DD69C0E7D5E9EBA82A1C3 /* PSOutputDev.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		A63832F238B95B744E1A1C7ADDA0CDF6 /* UnicodeRemapping.cc in Sources */ = {isa = PBXBuildFile; fileRef = 25E2DF582BA3D793D65A143DF19D6E62 /* UnicodeRemapping.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		A65A756D8FAF284DF47026FF594FB840 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		A7D8C639C4FE5B5A821232874AF7D4C1 /* JArithmeticDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 76603F1AE019B038E1AEB67A325D6F2E /* JArithmeticDecoder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A7DC606BB8DF99DF70CF68B9027B7ACA /* SplashFontEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = EC39D14AF28BBAF2D6AB8941282AB5C1 /* SplashFontEngine.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A7F2FBAD0757903AD2D10A6E55C2D75C /* SplashScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = 85198725FBDF46ED81AD36D1B832ED96 /* SplashScreen.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A82F13AB24A24026DAF1DC8CD43B3217 /* UnicodeMap.cc in Sources */ = {isa = PBXBuildFile; fileRef = F53D208ADBE7E43C5606FEF076117FB4 /* UnicodeMap.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		ABCCC68CE6FAA097F526C42E311DE0AC /* PSTokenizer.cc in Sources */ = {isa = PBXBuildFile; fileRef = 7FDBDD2372E39C279E66E674D51C21DC /* PSTokenizer.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		AC782A02BD5B61062C5CD9CCB7729E33 /* SplashOutputDev.h in Headers */ = {isa = PBXBuildFile; fileRef = 19BF209F986D08FF215F92E9ED8EF18E /* SplashOutputDev.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AE3020E2805B9A1C3CEC97E7E9E4403D /* TileCompositor.cc in Sources */ = {isa = PBXBuildFile; fileRef = CD8D6914F777713B5FD5B5D987394B1A /* TileCompositor.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		AED2D1A85047A6839FCFEA2A4DCC40CE /* Outline.cc in Sources */ = {isa = PBXBuildFile; fileRef = 80188A273ED64C2C357AF9452C80C33D /* Outline.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		AF4525C1AE69CA78A4EABFA009F205D2 /* SplashFontFileID.h in Headers */ = {isa = PBXBuildFile; fileRef = 12AE00E63744DE697747C3B576B8AB46 /* SplashFontFileID.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AFBF97F0FF2FDE9296765939E081D6D4 /* GfxState.cc in Sources */ = {isa = PBXBuildFile; fileRef = 1AB7A9B60FE98E6A2EF5D15D3222602C /* GfxState.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		AFF7E289967B445966D45566DD6646A4 /* pdftops.cc in Sources */ = {isa = PBXBuildFile; fileRef = E1444BE382A21583928CAE688117E605 /* pdftops.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		B0C3602FCBC921776389551D987CF7C3 /* Page.cc in Sources */ = {isa = PBXBuildFile; fileRef = A30CB8D595EC0323E52FA341E8869B68 /* Page.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		B170FC9FCCB4D116D4887E1C54530900 /* XRef.h in Headers */ = {isa = PBXBuildFile; fileRef = 83267007F7566B851F9FB0CF184F5D92 /* XRef.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B20624E4A385A75F3E0A8C9289164252 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F314ECEA02F8FA0A8F5971ACE5AEB98 /* config.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B358680FCCACB245645351A9286B4D66 /* Error.cc in Sources */ = {isa = PBXBuildFile; fileRef = 9980657938F7045A6DFC0E83467D6AF8 /* Error.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		B407558479EA90C68E419F09257945AC /* Decrypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 150049766332AA76E16B6C0DE6959739 /* Decrypt.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B413EF7E75DC2EC4D15F85E7DF07F86A /* pdftoppm.cc in Sources */ = {isa = PBXBuildFile; fileRef = 63840C5E4900DC7CCBDDC69EC21FE002 /* pdftoppm.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		B5A32A576DDD86E22CD15F9CB8C1C8BE /* Gfx.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A8C212BAFEC14386EE152F6AE5872C3 /* Gfx.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B5F54ED9041644169A9AC99BD048A9E9 /* WTRxPDFManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A0D15EE5D865C099F76F6855C2722845 /* WTRxPDFManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAE9C4DC20BF3D3CD7E9E06544FFD2AF /* SecurityHandler.cc in Sources */ = {isa = PBXBuildFile; fileRef = C16400F759F76B30F72B0EB7C14863B1 /* SecurityHandler.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		BC4D0C51327C052B7C2F280F2F6A3EE1 /* XFAForm.cc in Sources */ = {isa = PBXBuildFile; fileRef = 7959DB9E2FF199EEA3C03813C30CA09A /* XFAForm.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		BD0179B4E2F4AF93A19F0E0BDD738F3F /* SplashErrorCodes.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E0C31DC4D685B8A9F67682F693B5E55 /* SplashErrorCodes.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BDE373C4B63B7946B3A4B0AD122CDB6F /* FoFiIdentifier.cc in Sources */ = {isa = PBXBuildFile; fileRef = D91154C7B3A51C289490B704E3CFE621 /* FoFiIdentifier.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		BE136236BC8F32CFDC314CD379F04DBA /* ImageOutputDev.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BD41D9D121B460C9C51C32CB61FFD60 /* ImageOutputDev.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BE1C5A3312AA04383FA717DC5B4948E4 /* XFAForm.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C545910D4942262ACC65CC95A9577C9 /* XFAForm.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BFA16BB14F2C8B9B2EBE18C06A8211F9 /* SplashPath.cc in Sources */ = {isa = PBXBuildFile; fileRef = E6D6B827E8C17E49A9C5EE30A3C6681A /* SplashPath.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		C03021C670BF56EF9F79BBCEFBCB9ABC /* TileCache.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4381A089DAF6A2D8C3AF29F8693551C9 /* TileCache.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		C069AD6D7A076632112F99A4D109F4D5 /* FoFiEncodings.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B21C312C3C260B49D6CB0EA74F0FF9B /* FoFiEncodings.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C1232545E2773BBD64707CB16549A2FC /* Gfx.cc in Sources */ = {isa = PBXBuildFile; fileRef = 1994DDD61C7C4287D2CBA97F21D94D7D /* Gfx.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		C33446D34C45076C96F29C58F73CCB29 /* UnicodeTypeTable.h in Headers */ = {isa = PBXBuildFile; fileRef = A41D486660E99A8BD4C91FB8E0026ED7 /* UnicodeTypeTable.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C623AB7BAC99BB12934FBBA0B41E9A4B /* Function.cc in Sources */ = {isa = PBXBuildFile; fileRef = 8CDA6D605E731EDD7EB0B03BE58AA780 /* Function.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		C72A8AC092BCC575D4F071815A2D1A21 /* pdftotext.cc in Sources */ = {isa = PBXBuildFile; fileRef = AA416EC81DC30E4A7B3A4CD37BD06843 /* pdftotext.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		C883E9213370B705C844A1E796420513 /* Zoox.cc in Sources */ = {isa = PBXBuildFile; fileRef = C680059377C9B2C5D7CCC6F1683D0C0E /* Zoox.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		C9C8420578546652C56CB01A39989EBE /* CMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 40BD1045F2667F30A339071B246612D9 /* CMap.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CA76AB48F830B92F9E014A17545294EE /* FontEncodingTables.h in Headers */ = {isa = PBXBuildFile; fileRef = EE7DE6CE17EB4D4A8882EAA1AEE24205 /* FontEncodingTables.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CAE0B1FD9A138D2B4C0FA9048898891C /* GList.cc in Sources */ = {isa = PBXBuildFile; fileRef = A232F1D98B023C42019503FEF398DCFE /* GList.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		CCD900E412628656D9BC6DA07E251A98 /* SplashFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CE8526D7D8097C71A1379D5164026D3 /* SplashFont.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D113D94D568254264D32539BCBAD907D /* SplashFTFontFile.cc in Sources */ = {isa = PBXBuildFile; fileRef = F433EB471F4F469643A96975540CA223 /* SplashFTFontFile.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		D3A9501E7C0777E0A67B9A94C09D2C26 /* GMutex.h in Headers */ = {isa = PBXBuildFile; fileRef = F0030A236C5EFE126CECA4FFA83DB0FA /* GMutex.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D423773D122D0B8C13C9778DB698243F /* SplashClip.cc in Sources */ = {isa = PBXBuildFile; fileRef = C11EA3F9A34FE549B188754CBEF3634E /* SplashClip.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		D6A4784BD6AA9B18BF91EEAA3CE74835 /* SplashXPathScanner.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3B4BB2B476D18FD5B99112EE06B018BF /* SplashXPathScanner.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		D7620DA2D535432BF87AA520B053C002 /* TextString.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4D5AA1A690E44F700EE6E3339FD62144 /* TextString.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		D9073451C791D89A12D089F2E4FDFADE /* Dict.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2EF0D61428CFFF93E49D166A3ED35D07 /* Dict.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		DA176AA884CBFE4A2CFD907CAD20DB89 /* Object.h in Headers */ = {isa = PBXBuildFile; fileRef = C0056ADD3956150124A088E290301F8F /* Object.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DB87BC7DA665B462B3C6318031BC6ECC /* parseargs.c in Sources */ = {isa = PBXBuildFile; fileRef = 6D3E3EF95012F3C9A74370C5438696F6 /* parseargs.c */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		DC2C979FFD04C6D445860F4C2A6D4614 /* Annot.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4A60DB78D38C03BD507BAF4D98095A5C /* Annot.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		DDCAB4A2ADD4B15E8515A0CF1AEE774B /* Stream-CCITT.h in Headers */ = {isa = PBXBuildFile; fileRef = BDAF1C5465CCCA6E905575A2A82091AB /* Stream-CCITT.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E119D7B2F1BD01B65F0147601F8C03DC /* JPXStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BD6E1998790894205D4E9B74067142A /* JPXStream.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E2082E3015D96749650608FC8A21C4F5 /* GfxFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 424FC45D989CF3BF42093B9E106FD184 /* GfxFont.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E5AC292EB03DB809F1F8CC06FA088A57 /* UTF8.h in Headers */ = {isa = PBXBuildFile; fileRef = A05508979928B72DBD4D54B6C747AA4A /* UTF8.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E5DC08B684959D446BA384D9EBD3B773 /* FoFiTrueType.cc in Sources */ = {isa = PBXBuildFile; fileRef = 0EBA402740FA324234652D405FD41DC8 /* FoFiTrueType.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		E711F3FBE5FF3909B09831FB2D58C15C /* Form.cc in Sources */ = {isa = PBXBuildFile; fileRef = BD28270C17B10C7B84D102735F0DD944 /* Form.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		E807C8067DE2B4C03AE7B5753BE2C229 /* SplashXPathScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = FD2B65DBADD939DD30F45A085C7198D1 /* SplashXPathScanner.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E8B7D6F358347909144019F2752B8FB4 /* TileCompositor.h in Headers */ = {isa = PBXBuildFile; fileRef = E9E7700CF4CD5610E35C3BA32B2FA130 /* TileCompositor.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E921D95D0244CD8A38EF3CB3AA86C477 /* WTRxPDFManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 90A1CB3A082868C5035D7AFB57A6177F /* WTRxPDFManager.mm */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		E94847564A79CAE2764C86D205FC9E88 /* SplashFontEngine.cc in Sources */ = {isa = PBXBuildFile; fileRef = D5B417290E48543B8AAB516F299397C9 /* SplashFontEngine.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		ECA2B0EC9F9CBFB09D1C3D7CA4A971AA /* WTRXPDF.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7EB0B38B743B55274AAC15A57270E971 /* WTRXPDF.bundle */; };
+		ED5FDFF240A0799FD3F9450C05963FF4 /* FontEncodingTables.cc in Sources */ = {isa = PBXBuildFile; fileRef = D2E33CC48DBC5E290EBC2B0FEB6EB77F /* FontEncodingTables.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		EE1C1066300FE03BCE005D77E457A923 /* TileMap.cc in Sources */ = {isa = PBXBuildFile; fileRef = C5483A9DB052EEC34F39BD4F47081467 /* TileMap.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		EFA70D252576A0DE3F9500AF3DBAA913 /* UnicodeMap.h in Headers */ = {isa = PBXBuildFile; fileRef = C0649905BDB01DC24DEB345BC3D7DB6E /* UnicodeMap.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F0BA827E1DC3347A0D36937167484BB7 /* FoFiTrueType.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FF397A5023D15DC021E62035D1F7ECE /* FoFiTrueType.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F3703F5A235450BEACB2EACEEDD33804 /* SplashFont.cc in Sources */ = {isa = PBXBuildFile; fileRef = 53EDFED5BEC935E1E70223C1C2D04711 /* SplashFont.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		F4C5469695AF20305D34BD13F0218943 /* SecurityHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DBECC3AA49C7170A794131E660E051A /* SecurityHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F50E4268C892D53341B570197BA279AB /* gfile.cc in Sources */ = {isa = PBXBuildFile; fileRef = C69767F6B2F90E4F72D3A2C8FCDBD920 /* gfile.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		F76E96E2FAEE8FBD7AF55702DEBE739C /* CompactFontTables.h in Headers */ = {isa = PBXBuildFile; fileRef = 01722D646A8794985B39FE81E1E763E8 /* CompactFontTables.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F7DAA655F971BD01B23BCF16033F4371 /* SplashFTFontEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 64733D3ABABFE4E5883FF19926D97B52 /* SplashFTFontEngine.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F8FDAC34B3EE297C063FF31440C075D4 /* SplashState.cc in Sources */ = {isa = PBXBuildFile; fileRef = 6E6357FF729D2C1837B83C36DC600715 /* SplashState.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+		FB12A311160AFAAF0E5DBBE534D16848 /* OutputDev.h in Headers */ = {isa = PBXBuildFile; fileRef = AFA83964906BEBD30BE8DD3548970BEE /* OutputDev.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FB42D45FF38B1B3913FA2BDD1EC60F14 /* SplashFTFontFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E18103BC3C48C3679D6217488970C2B /* SplashFTFontFile.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FC450B0B2107E72C83D5183CF081E4F1 /* Outline.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD1CBAFEE850DC02BC6CCB72056CF34 /* Outline.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FCD6A9E7C97CA6EE3156AD61EFE20467 /* SplashXPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 7044214FCCC9942F7707C206DCD81139 /* SplashXPath.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FF62299B9EDD7E03408A563D096F6B71 /* SplashFTFontEngine.cc in Sources */ = {isa = PBXBuildFile; fileRef = CD7974A985682ED30EA9207FF9C1EABC /* SplashFTFontEngine.cc */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-conditional-uninitialized"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CC476E3D61D00B996A1661C5215ADDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 970E661D910095FF25C3148701B7317B;
+			remoteInfo = pdftotxt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0102F601A92245645C4D834DB3D02F87 /* Pods-WTRxPDFtoTxt-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WTRxPDFtoTxt-Info.plist"; sourceTree = "<group>"; };
+		01722D646A8794985B39FE81E1E763E8 /* CompactFontTables.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CompactFontTables.h; sourceTree = "<group>"; };
+		07FD992377EEE72F8B8A645EB85C21EF /* TextOutputDev.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TextOutputDev.h; sourceTree = "<group>"; };
+		081B248A0240C3B7E36AFC511BFBB8AC /* PDFDoc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PDFDoc.h; sourceTree = "<group>"; };
+		0BD6E1998790894205D4E9B74067142A /* JPXStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JPXStream.h; sourceTree = "<group>"; };
+		0BE0B3130B311A37DA5F793F98F87497 /* SplashPattern.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = SplashPattern.cc; sourceTree = "<group>"; };
+		0CC250C8F6355DEF00170CFC2CB84FBB /* pdfinfo.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = pdfinfo.cc; sourceTree = "<group>"; };
+		0EBA402740FA324234652D405FD41DC8 /* FoFiTrueType.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = FoFiTrueType.cc; sourceTree = "<group>"; };
+		10168426473969421E0A42FCBA997AFD /* Pods-WTRxPDFtoTxt-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WTRxPDFtoTxt-umbrella.h"; sourceTree = "<group>"; };
+		1039316083606E50652DD5597D1E896D /* Parser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Parser.h; sourceTree = "<group>"; };
+		12AE00E63744DE697747C3B576B8AB46 /* SplashFontFileID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SplashFontFileID.h; sourceTree = "<group>"; };
+		12FCC37A370A1504AB34F9A3CCEEF931 /* Pods-WTRxPDFtoTxt-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WTRxPDFtoTxt-acknowledgements.markdown"; sourceTree = "<group>"; };
+		150049766332AA76E16B6C0DE6959739 /* Decrypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Decrypt.h; sourceTree = "<group>"; };
+		15D3819B2BB2ED191BD1FD704A90951B /* SplashBitmap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SplashBitmap.h; sourceTree = "<group>"; };
+		1696EA05DCD00C9EF6A033B5ECFBCB4C /* UnicodeRemapping.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UnicodeRemapping.h; sourceTree = "<group>"; };
+		180C97E9E4FA19470913A233EFCE281C /* Pods-WTRxPDFtoTxt-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WTRxPDFtoTxt-frameworks.sh"; sourceTree = "<group>"; };
+		1994DDD61C7C4287D2CBA97F21D94D7D /* Gfx.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = Gfx.cc; sourceTree = "<group>"; };
+		19BF209F986D08FF215F92E9ED8EF18E /* SplashOutputDev.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SplashOutputDev.h; sourceTree = "<group>"; };
+		1AB7A9B60FE98E6A2EF5D15D3222602C /* GfxState.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = GfxState.cc; sourceTree = "<group>"; };
+		1CA1D230DC1188C68A4869398513372D /* DisplayState.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = DisplayState.cc; sourceTree = "<group>"; };
+		1E5DC730FDA8E4D634B5851223A46F9C /* Pods-WTRxPDFtoTxt-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WTRxPDFtoTxt-dummy.m"; sourceTree = "<group>"; };
+		1E9642A06B156F37C924B35DFB781C89 /* AcroForm.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = AcroForm.cc; sourceTree = "<group>"; };
+		1FD1CBAFEE850DC02BC6CCB72056CF34 /* Outline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Outline.h; sourceTree = "<group>"; };
+		213F8AF36EEB51343EA99AF2B28CC012 /* FoFiType1C.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = FoFiType1C.cc; sourceTree = "<group>"; };
+		2170434D103217AFD3082B48095CBEAA /* Catalog.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = Catalog.cc; sourceTree = "<group>"; };
+		223BB865BA745F5EEB8AEE9887F2385D /* JPXStream.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = JPXStream.cc; sourceTree = "<group>"; };
+		25E2DF582BA3D793D65A143DF19D6E62 /* UnicodeRemapping.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = UnicodeRemapping.cc; sourceTree = "<group>"; };
+		264E7A2D5F870E861CD899FC9401A6DB /* FoFiType1.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = FoFiType1.cc; sourceTree = "<group>"; };
+		280580910F96892F130639E663A410AB /* Pods-WTRxPDFtoTxt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WTRxPDFtoTxt.debug.xcconfig"; sourceTree = "<group>"; };
+		298771C14B5D715BBBC9FEDE69E223DE /* Dict.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Dict.h; sourceTree = "<group>"; };
+		29C0289FF2C763D7565A37951AC07286 /* NameToCharCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NameToCharCode.h; sourceTree = "<group>"; };
+		2E8035611416FEA21503B5FDF3B07CA6 /* Annot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Annot.h; sourceTree = "<group>"; };
+		2EF0D61428CFFF93E49D166A3ED35D07 /* Dict.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = Dict.cc; sourceTree = "<group>"; };
+		30A0DC59EFDDBF50B7B59950F026D418 /* PreScanOutputDev.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PreScanOutputDev.h; sourceTree = "<group>"; };
+		30EFD69A91F5EC00560BBDA69420FB03 /* FixedPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FixedPoint.h; sourceTree = "<group>"; };
+		32237AAB84BA878DF833EEFCAE47E101 /* SplashMath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SplashMath.h; sourceTree = "<group>"; };
+		327875F7706A6FD20FD172A9B3FE31B5 /* BuiltinFontTables.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BuiltinFontTables.h; sourceTree = "<group>"; };
+		33DA2A25D5EDEE408D92C7A6124F1B89 /* Array.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Array.h; sourceTree = "<group>"; };
+		34283D8F53A9500488271FE4538D418F /* pdftotxt.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = pdftotxt.xcconfig; sourceTree = "<group>"; };
+		3521D401F05D87C2AC850D93D306BF7F /* Pods-WTRxPDFtoTxt.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WTRxPDFtoTxt.modulemap"; sourceTree = "<group>"; };
+		3602AA92659C73BD4A01588E9B2E397C /* BuiltinFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BuiltinFont.h; sourceTree = "<group>"; };
+		3934C816ED0ECF8C77E099536BA16D68 /* XRef.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = XRef.cc; sourceTree = "<group>"; };
+		39C09A17FE669ADAF785E47BA230C03C /* PDFCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PDFCore.h; sourceTree = "<group>"; };
+		3B4BB2B476D18FD5B99112EE06B018BF /* SplashXPathScanner.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = SplashXPathScanner.cc; sourceTree = "<group>"; };
+		3CE8526D7D8097C71A1379D5164026D3 /* SplashFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SplashFont.h; sourceTree = "<group>"; };
+		3DBECC3AA49C7170A794131E660E051A /* SecurityHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SecurityHandler.h; sourceTree = "<group>"; };
+		3DFD130D1326492F36E98FC6FF20A788 /* UnicodeTypeTable.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = UnicodeTypeTable.cc; sourceTree = "<group>"; };
+		3E18103BC3C48C3679D6217488970C2B /* SplashFTFontFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SplashFTFontFile.h; sourceTree = "<group>"; };
+		3E7D97BEF6974BCFC69D057F7D35C4C5 /* Form.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Form.h; sourceTree = "<group>"; };
+		40BD1045F2667F30A339071B246612D9 /* CMap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CMap.h; sourceTree = "<group>"; };
+		424FC45D989CF3BF42093B9E106FD184 /* GfxFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GfxFont.h; sourceTree = "<group>"; };
+		4381A089DAF6A2D8C3AF29F8693551C9 /* TileCache.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = TileCache.cc; sourceTree = "<group>"; };
+		4640C57AB9D9B3AC9B80F7C4405DDE24 /* ImageOutputDev.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = ImageOutputDev.cc; sourceTree = "<group>"; };
+		4662571820919714CB1D7E284481E0D7 /* FoFiEncodings.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = FoFiEncodings.cc; sourceTree = "<group>"; };
+		470DEB615A6D67F1819A6B045AC733F2 /* SplashPath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SplashPath.h; sourceTree = "<group>"; };
+		481C11F4BED80902741DFE4993DA720F /* SplashGlyphBitmap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SplashGlyphBitmap.h; sourceTree = "<group>"; };
+		4880919DBC9220E08A31DAF6AAF0303B /* aconf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = aconf.h; sourceTree = "<group>"; };
+		496D896DE024174F74C8FFE868875906 /* gtypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = gtypes.h; sourceTree = "<group>"; };
+		4A3DBC376114255211E85A77F27BAA0C /* JBIG2Stream.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = JBIG2Stream.cc; sourceTree = "<group>"; };
+		4A60DB78D38C03BD507BAF4D98095A5C /* Annot.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = Annot.cc; sourceTree = "<group>"; };
+		4C4D8662B7B943217B7249A144CB91AB /* SplashOutputDev.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = SplashOutputDev.cc; sourceTree = "<group>"; };
+		4D5AA1A690E44F700EE6E3339FD62144 /* TextString.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = TextString.cc; sourceTree = "<group>"; };
+		4F15BD5F966FA136B67F1A9B65C1385E /* CharCodeToUnicode.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = CharCodeToUnicode.cc; sourceTree = "<group>"; };
+		4FF397A5023D15DC021E62035D1F7ECE /* FoFiTrueType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FoFiTrueType.h; sourceTree = "<group>"; };
+		50E43A56DE04AF59FA45DAC677ECFE29 /* Parser.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = Parser.cc; sourceTree = "<group>"; };
+		53EDFED5BEC935E1E70223C1C2D04711 /* SplashFont.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = SplashFont.cc; sourceTree = "<group>"; };
+		546BF8FB3C33B554FF8ED3A1B6815B49 /* SplashState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SplashState.h; sourceTree = "<group>"; };
+		54A84B5E046C2326651BB4082184E6E5 /* pdfimages.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = pdfimages.cc; sourceTree = "<group>"; };
+		594132094F051F9C1C9F95F603B732E6 /* GList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GList.h; sourceTree = "<group>"; };
+		59E8719CD59F9E304A2343CDE7E0E95A /* SplashFTFont.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = SplashFTFont.cc; sourceTree = "<group>"; };
+		59F9ACB1968742F247CBF3055AF18A3E /* FixedPoint.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = FixedPoint.cc; sourceTree = "<group>"; };
+		5AEECD3EE0D98C1BE84B436FEE3B9370 /* Zoox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Zoox.h; sourceTree = "<group>"; };
+		5BD41D9D121B460C9C51C32CB61FFD60 /* ImageOutputDev.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ImageOutputDev.h; sourceTree = "<group>"; };
+		5E00BBC4538DD7650F896DD29B5B862E /* PSOutputDev.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PSOutputDev.h; sourceTree = "<group>"; };
+		5E0C31DC4D685B8A9F67682F693B5E55 /* SplashErrorCodes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SplashErrorCodes.h; sourceTree = "<group>"; };
+		61E884197EDDDD4308C00280BA48EC29 /* pdffonts.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = pdffonts.cc; sourceTree = "<group>"; };
+		63840C5E4900DC7CCBDDC69EC21FE002 /* pdftoppm.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = pdftoppm.cc; sourceTree = "<group>"; };
+		64733D3ABABFE4E5883FF19926D97B52 /* SplashFTFontEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SplashFTFontEngine.h; sourceTree = "<group>"; };
+		6637AFC7E34E1C1E540B70A6264C97E1 /* gmempp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = gmempp.h; sourceTree = "<group>"; };
+		69235FC693A463C75524B2E7A40FAE71 /* Decrypt.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = Decrypt.cc; sourceTree = "<group>"; };
+		6A02469D44ED6F750CFA4220C1B5114D /* PDF417Barcode.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = PDF417Barcode.cc; sourceTree = "<group>"; };
+		6AF690A804DD2DAB912D1E2EC1C75A38 /* PDFDocEncoding.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = PDFDocEncoding.cc; sourceTree = "<group>"; };
+		6B21C312C3C260B49D6CB0EA74F0FF9B /* FoFiEncodings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FoFiEncodings.h; sourceTree = "<group>"; };
+		6D3E3EF95012F3C9A74370C5438696F6 /* parseargs.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = parseargs.c; sourceTree = "<group>"; };
+		6E6357FF729D2C1837B83C36DC600715 /* SplashState.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = SplashState.cc; sourceTree = "<group>"; };
+		7044214FCCC9942F7707C206DCD81139 /* SplashXPath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SplashXPath.h; sourceTree = "<group>"; };
+		717C6C5B9BD9FEC266567073F124CFF3 /* BuiltinFont.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = BuiltinFont.cc; sourceTree = "<group>"; };
+		71C79709B28EECD2C5926A6FB7BED274 /* SplashScreen.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = SplashScreen.cc; sourceTree = "<group>"; };
+		744F3E8434F25324A8A855326A87280B /* UTF8.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = UTF8.cc; sourceTree = "<group>"; };
+		748EDBE48F8EC6AA0E283C69515000B5 /* GString.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = GString.cc; sourceTree = "<group>"; };
+		76603F1AE019B038E1AEB67A325D6F2E /* JArithmeticDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JArithmeticDecoder.h; sourceTree = "<group>"; };
+		76FE512289CAE040624E04FB1C2CAE7B /* SplashPattern.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SplashPattern.h; sourceTree = "<group>"; };
+		77B40AB748FCBA9E1900998964BDD2EA /* pdfdetach.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = pdfdetach.cc; sourceTree = "<group>"; };
+		7959DB9E2FF199EEA3C03813C30CA09A /* XFAForm.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = XFAForm.cc; sourceTree = "<group>"; };
+		7968CE82FAC314E6DA0B4730024F06D5 /* pdftotxt-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "pdftotxt-prefix.pch"; sourceTree = "<group>"; };
+		79F36B5D163D3A2C4F553E7D678CAA08 /* Function.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Function.h; sourceTree = "<group>"; };
+		7A6E2F853756798166AA6E9F2188FCE8 /* Splash.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = Splash.cc; sourceTree = "<group>"; };
+		7A8C212BAFEC14386EE152F6AE5872C3 /* Gfx.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Gfx.h; sourceTree = "<group>"; };
+		7ABCBFB1ED6EBFE86CA35E41B71ADD1C /* GfxState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GfxState.h; sourceTree = "<group>"; };
+		7DBC8B5991BAFB72C27A921CD5735B3B /* JBIG2Stream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JBIG2Stream.h; sourceTree = "<group>"; };
+		7E09F6C6F8CE19F666693D1EBD7F3E7A /* pdftotxt-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "pdftotxt-Info.plist"; sourceTree = "<group>"; };
+		7EB0B38B743B55274AAC15A57270E971 /* WTRXPDF.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = WTRXPDF.bundle; path = pdftotxt/Assets/WTRXPDF.bundle; sourceTree = "<group>"; };
+		7FDBDD2372E39C279E66E674D51C21DC /* PSTokenizer.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = PSTokenizer.cc; sourceTree = "<group>"; };
+		80188A273ED64C2C357AF9452C80C33D /* Outline.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = Outline.cc; sourceTree = "<group>"; };
+		82E80B1C90CDFDC52FE73E8C8DF44203 /* Array.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = Array.cc; sourceTree = "<group>"; };
+		82EB3E8C2E058B9BCDF167A09D70409F /* NameToCharCode.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = NameToCharCode.cc; sourceTree = "<group>"; };
+		83267007F7566B851F9FB0CF184F5D92 /* XRef.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XRef.h; sourceTree = "<group>"; };
+		84C77DD20E7B240CA671585E7706F351 /* CMap.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = CMap.cc; sourceTree = "<group>"; };
+		85198725FBDF46ED81AD36D1B832ED96 /* SplashScreen.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SplashScreen.h; sourceTree = "<group>"; };
+		8552009F708D12A216F594C44884208D /* Pods-WTRxPDFtoTxt-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WTRxPDFtoTxt-acknowledgements.plist"; sourceTree = "<group>"; };
+		85E4895ACD49452F2C7D5D83279E2821 /* Object.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = Object.cc; sourceTree = "<group>"; };
+		8605474119E105DED38E09C6CB61E04B /* pdftotxt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = pdftotxt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A92A1AB8B6FCE0185A7BFC1ABA3E3CF /* SplashFTFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SplashFTFont.h; sourceTree = "<group>"; };
+		8BA4D922AFCE85338F1385A22A55782C /* aconf2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = aconf2.h; sourceTree = "<group>"; };
+		8CDA6D605E731EDD7EB0B03BE58AA780 /* Function.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = Function.cc; sourceTree = "<group>"; };
+		8E378227E78DD69C0E7D5E9EBA82A1C3 /* PSOutputDev.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = PSOutputDev.cc; sourceTree = "<group>"; };
+		8F314ECEA02F8FA0A8F5971ACE5AEB98 /* config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		8FED6706A4317771A9E8020BC1BC41FC /* BuiltinFontTables.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = BuiltinFontTables.cc; sourceTree = "<group>"; };
+		9090864177B334218AA80472E79B7C44 /* SplashClip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SplashClip.h; sourceTree = "<group>"; };
+		90A1CB3A082868C5035D7AFB57A6177F /* WTRxPDFManager.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = WTRxPDFManager.mm; path = pdftotxt/Classes/WTRxPDFManager.mm; sourceTree = "<group>"; };
+		90FB550B63A241D073D5A917E8E5A9F2 /* JArithmeticDecoder.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = JArithmeticDecoder.cc; sourceTree = "<group>"; };
+		94EA9AF5A4552A9A2AB5390B86F01271 /* Error.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Error.h; sourceTree = "<group>"; };
+		969A6160B184B8B6270C90E7BF181253 /* PSTokenizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PSTokenizer.h; sourceTree = "<group>"; };
+		9980657938F7045A6DFC0E83467D6AF8 /* Error.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = Error.cc; sourceTree = "<group>"; };
+		9A092D5FFEB6EA7BBB7486363547C763 /* SplashTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SplashTypes.h; sourceTree = "<group>"; };
+		9A14DA0ACC34391DD9305856B98FBA07 /* Link.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = Link.cc; sourceTree = "<group>"; };
+		9B64373DDC203A637AD7A1690122E5AF /* FoFiIdentifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FoFiIdentifier.h; sourceTree = "<group>"; };
+		9C545910D4942262ACC65CC95A9577C9 /* XFAForm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XFAForm.h; sourceTree = "<group>"; };
+		9CF2A3B48C2774539D2912B2A656E9DE /* OutputDev.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = OutputDev.cc; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DE7EC3547D123C873350C0F7E2E7D80 /* SplashBitmap.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = SplashBitmap.cc; sourceTree = "<group>"; };
+		9FF17FA62F11C19CEA4E590B7842CB90 /* FoFiBase.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = FoFiBase.cc; sourceTree = "<group>"; };
+		A05508979928B72DBD4D54B6C747AA4A /* UTF8.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UTF8.h; sourceTree = "<group>"; };
+		A0D15EE5D865C099F76F6855C2722845 /* WTRxPDFManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTRxPDFManager.h; path = pdftotxt/Classes/WTRxPDFManager.h; sourceTree = "<group>"; };
+		A232F1D98B023C42019503FEF398DCFE /* GList.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = GList.cc; sourceTree = "<group>"; };
+		A30CB8D595EC0323E52FA341E8869B68 /* Page.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = Page.cc; sourceTree = "<group>"; };
+		A3E46F1577D3E8CD7ED1397189C6E84E /* gmem.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = gmem.cc; sourceTree = "<group>"; };
+		A41D486660E99A8BD4C91FB8E0026ED7 /* UnicodeTypeTable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UnicodeTypeTable.h; sourceTree = "<group>"; };
+		A78DAD8A5A2C15710E6D92A908264889 /* CharTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CharTypes.h; sourceTree = "<group>"; };
+		A7A8828EF0D95FEF9412358541786A34 /* gfile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = gfile.h; sourceTree = "<group>"; };
+		A8C82CD1364698B438B18EC978A67939 /* PreScanOutputDev.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = PreScanOutputDev.cc; sourceTree = "<group>"; };
+		A99F705AF2A37E7FC4E9826551BCDDD2 /* Stream.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = Stream.cc; sourceTree = "<group>"; };
+		AA416EC81DC30E4A7B3A4CD37BD06843 /* pdftotext.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = pdftotext.cc; sourceTree = "<group>"; };
+		AB36CB50EDF221A170C3CD350584CE43 /* Splash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Splash.h; sourceTree = "<group>"; };
+		ABAE665B09A4AC6711DA557E59BD7442 /* Pods_WTRxPDFtoTxt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WTRxPDFtoTxt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACC44B4CD8693F72B130E28E17F6DDD1 /* FoFiBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FoFiBase.h; sourceTree = "<group>"; };
+		AFA83964906BEBD30BE8DD3548970BEE /* OutputDev.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OutputDev.h; sourceTree = "<group>"; };
+		AFE6218406544DFF182744F6EA201358 /* Lexer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Lexer.h; sourceTree = "<group>"; };
+		B02A36194F580D3F5584BAEFEDE03243 /* Pods-WTRxPDFtoTxt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WTRxPDFtoTxt.release.xcconfig"; sourceTree = "<group>"; };
+		B3BFDEC52160AA0AFBDAEBB15179EBF1 /* PDFCore.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = PDFCore.cc; sourceTree = "<group>"; };
+		B3D0406E4FC3292A531E205ED144E7D9 /* parseargs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = parseargs.h; sourceTree = "<group>"; };
+		B928F26B67F86631ADD2A83F799E3CBE /* Lexer.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = Lexer.cc; sourceTree = "<group>"; };
+		B95147554A45ED27E53DDAB65C51F296 /* Stream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Stream.h; sourceTree = "<group>"; };
+		B9BCC83D4CA4AC2A5C74AD68EB68D734 /* OptionalContent.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = OptionalContent.cc; sourceTree = "<group>"; };
+		BBD95E695159E2E2C0CF0EB065686769 /* AcroForm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AcroForm.h; sourceTree = "<group>"; };
+		BD28270C17B10C7B84D102735F0DD944 /* Form.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = Form.cc; sourceTree = "<group>"; };
+		BDAF1C5465CCCA6E905575A2A82091AB /* Stream-CCITT.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Stream-CCITT.h"; sourceTree = "<group>"; };
+		C0056ADD3956150124A088E290301F8F /* Object.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Object.h; sourceTree = "<group>"; };
+		C0649905BDB01DC24DEB345BC3D7DB6E /* UnicodeMap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UnicodeMap.h; sourceTree = "<group>"; };
+		C11EA3F9A34FE549B188754CBEF3634E /* SplashClip.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = SplashClip.cc; sourceTree = "<group>"; };
+		C16400F759F76B30F72B0EB7C14863B1 /* SecurityHandler.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = SecurityHandler.cc; sourceTree = "<group>"; };
+		C1879293B6D65770DA4958DC153544EE /* GfxFont.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = GfxFont.cc; sourceTree = "<group>"; };
+		C2985670BEDBFBDFEF00406008DC31BA /* GlobalParams.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = GlobalParams.cc; sourceTree = "<group>"; };
+		C3DCEC525AF3A05168F63F3111228888 /* UnicodeMapTables.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UnicodeMapTables.h; sourceTree = "<group>"; };
+		C5483A9DB052EEC34F39BD4F47081467 /* TileMap.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = TileMap.cc; sourceTree = "<group>"; };
+		C54A81D119980A15E6E289B26BB05543 /* gmem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = gmem.h; sourceTree = "<group>"; };
+		C680059377C9B2C5D7CCC6F1683D0C0E /* Zoox.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = Zoox.cc; sourceTree = "<group>"; };
+		C69767F6B2F90E4F72D3A2C8FCDBD920 /* gfile.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = gfile.cc; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CB92A5FAA0D62495540337BBB7D7094A /* FoFiType1C.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FoFiType1C.h; sourceTree = "<group>"; };
+		CD6D673EB6E42556524F00C023AD830B /* TileMap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TileMap.h; sourceTree = "<group>"; };
+		CD7974A985682ED30EA9207FF9C1EABC /* SplashFTFontEngine.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = SplashFTFontEngine.cc; sourceTree = "<group>"; };
+		CD8D6914F777713B5FD5B5D987394B1A /* TileCompositor.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = TileCompositor.cc; sourceTree = "<group>"; };
+		CEAE545FF82A74896CE2A680F324A22C /* gmempp.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = gmempp.cc; sourceTree = "<group>"; };
+		CF26159E238EF360CE60B78703A40C0B /* GHash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GHash.h; sourceTree = "<group>"; };
+		D1BAF0024D247FFC6680631056F66592 /* pdftotxt-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "pdftotxt-umbrella.h"; sourceTree = "<group>"; };
+		D283A23EE2C15FCFD853AC252AD8A846 /* TextOutputDev.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = TextOutputDev.cc; sourceTree = "<group>"; };
+		D2E33CC48DBC5E290EBC2B0FEB6EB77F /* FontEncodingTables.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = FontEncodingTables.cc; sourceTree = "<group>"; };
+		D481F5B1514ABA6FEEC3DE3DDFC1DFF8 /* NameToUnicodeTable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NameToUnicodeTable.h; sourceTree = "<group>"; };
+		D5B417290E48543B8AAB516F299397C9 /* SplashFontEngine.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = SplashFontEngine.cc; sourceTree = "<group>"; };
+		D86E143CBFC06A9660B7B8D112D1F1B1 /* TextString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TextString.h; sourceTree = "<group>"; };
+		D91154C7B3A51C289490B704E3CFE621 /* FoFiIdentifier.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = FoFiIdentifier.cc; sourceTree = "<group>"; };
+		DA2492F138BFAD137BEA7791512EF605 /* TileCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TileCache.h; sourceTree = "<group>"; };
+		DA2CED08C0166A4F51AD5F32AF9F9E4A /* GlobalParams.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GlobalParams.h; sourceTree = "<group>"; };
+		DAEB8AB512EC755026D2B99B89F0A1B3 /* CharCodeToUnicode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CharCodeToUnicode.h; sourceTree = "<group>"; };
+		DBB9082233A19C0F4B26465A44D606C2 /* pdftotxt.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = pdftotxt.modulemap; sourceTree = "<group>"; };
+		DC92AD234C643FD9835C774E49B7B403 /* PDFDocEncoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PDFDocEncoding.h; sourceTree = "<group>"; };
+		DEB800352F8855792D3B9B45B47C1820 /* PDF417Barcode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PDF417Barcode.h; sourceTree = "<group>"; };
+		DF0D91C887EFDC9A37B7EEB8D6D8DA48 /* SplashFontFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SplashFontFile.h; sourceTree = "<group>"; };
+		E1444BE382A21583928CAE688117E605 /* pdftops.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = pdftops.cc; sourceTree = "<group>"; };
+		E18EA10A5241532D1629D03FD5D28805 /* pdftotxt.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = pdftotxt.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E1B77310A272C84B10F4803D891CD54C /* GHash.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = GHash.cc; sourceTree = "<group>"; };
+		E478DE9085B90011F3F8D0EFD803477D /* SplashXPath.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = SplashXPath.cc; sourceTree = "<group>"; };
+		E4D2BC20E404432E80F6511C78766647 /* PDFDoc.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = PDFDoc.cc; sourceTree = "<group>"; };
+		E5C7D6D5E021987D4AD910364FF608D6 /* Link.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Link.h; sourceTree = "<group>"; };
+		E6D6B827E8C17E49A9C5EE30A3C6681A /* SplashPath.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = SplashPath.cc; sourceTree = "<group>"; };
+		E7DAA3B785CBD4706DC731FF4B85D67F /* Catalog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Catalog.h; sourceTree = "<group>"; };
+		E7E0E99D46F1339C961985E9C94133C1 /* DisplayState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DisplayState.h; sourceTree = "<group>"; };
+		E9803C87EF48245DA0D83279C5D2ABF3 /* pdftotxt-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "pdftotxt-dummy.m"; sourceTree = "<group>"; };
+		E9E7700CF4CD5610E35C3BA32B2FA130 /* TileCompositor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TileCompositor.h; sourceTree = "<group>"; };
+		EAA5BA08820F2E1AC7EA43B67AD51B77 /* OptionalContent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OptionalContent.h; sourceTree = "<group>"; };
+		EC39D14AF28BBAF2D6AB8941282AB5C1 /* SplashFontEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SplashFontEngine.h; sourceTree = "<group>"; };
+		ECB04799E72B34692D0C758387B78CC1 /* SplashFontFileID.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = SplashFontFileID.cc; sourceTree = "<group>"; };
+		ED83BBC21C9A759838946A2E66786BA4 /* FoFiType1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FoFiType1.h; sourceTree = "<group>"; };
+		EDAD2143923F66004FE2CD6F78414935 /* SplashFontFile.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = SplashFontFile.cc; sourceTree = "<group>"; };
+		EE7DE6CE17EB4D4A8882EAA1AEE24205 /* FontEncodingTables.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FontEncodingTables.h; sourceTree = "<group>"; };
+		EFDFB906B1599763593C1A50C4EB91FE /* Page.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Page.h; sourceTree = "<group>"; };
+		F0030A236C5EFE126CECA4FFA83DB0FA /* GMutex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GMutex.h; sourceTree = "<group>"; };
+		F19015ED226CA939D82F317E4A6BDA94 /* ErrorCodes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ErrorCodes.h; sourceTree = "<group>"; };
+		F433EB471F4F469643A96975540CA223 /* SplashFTFontFile.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = SplashFTFontFile.cc; sourceTree = "<group>"; };
+		F4930A7B4239BD68691C222D99BFBBA4 /* GString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GString.h; sourceTree = "<group>"; };
+		F53D208ADBE7E43C5606FEF076117FB4 /* UnicodeMap.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = UnicodeMap.cc; sourceTree = "<group>"; };
+		FD2B65DBADD939DD30F45A085C7198D1 /* SplashXPathScanner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SplashXPathScanner.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		184440DB8FC3DF46225FB622A2652043 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				294F1365196D96C5DF5ED5BB0E002152 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77BBBE6F06081FB6AE4961C095372E9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A65A756D8FAF284DF47026FF594FB840 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		087A382EBA552582476F8B3F766A9E63 /* goo */ = {
+			isa = PBXGroup;
+			children = (
+				59F9ACB1968742F247CBF3055AF18A3E /* FixedPoint.cc */,
+				30EFD69A91F5EC00560BBDA69420FB03 /* FixedPoint.h */,
+				C69767F6B2F90E4F72D3A2C8FCDBD920 /* gfile.cc */,
+				A7A8828EF0D95FEF9412358541786A34 /* gfile.h */,
+				E1B77310A272C84B10F4803D891CD54C /* GHash.cc */,
+				CF26159E238EF360CE60B78703A40C0B /* GHash.h */,
+				A232F1D98B023C42019503FEF398DCFE /* GList.cc */,
+				594132094F051F9C1C9F95F603B732E6 /* GList.h */,
+				A3E46F1577D3E8CD7ED1397189C6E84E /* gmem.cc */,
+				C54A81D119980A15E6E289B26BB05543 /* gmem.h */,
+				CEAE545FF82A74896CE2A680F324A22C /* gmempp.cc */,
+				6637AFC7E34E1C1E540B70A6264C97E1 /* gmempp.h */,
+				F0030A236C5EFE126CECA4FFA83DB0FA /* GMutex.h */,
+				748EDBE48F8EC6AA0E283C69515000B5 /* GString.cc */,
+				F4930A7B4239BD68691C222D99BFBBA4 /* GString.h */,
+				496D896DE024174F74C8FFE868875906 /* gtypes.h */,
+				6D3E3EF95012F3C9A74370C5438696F6 /* parseargs.c */,
+				B3D0406E4FC3292A531E205ED144E7D9 /* parseargs.h */,
+			);
+			path = goo;
+			sourceTree = "<group>";
+		};
+		257D9B36F73AB33CF784133E8DF85E40 /* splash */ = {
+			isa = PBXGroup;
+			children = (
+				7A6E2F853756798166AA6E9F2188FCE8 /* Splash.cc */,
+				AB36CB50EDF221A170C3CD350584CE43 /* Splash.h */,
+				9DE7EC3547D123C873350C0F7E2E7D80 /* SplashBitmap.cc */,
+				15D3819B2BB2ED191BD1FD704A90951B /* SplashBitmap.h */,
+				C11EA3F9A34FE549B188754CBEF3634E /* SplashClip.cc */,
+				9090864177B334218AA80472E79B7C44 /* SplashClip.h */,
+				5E0C31DC4D685B8A9F67682F693B5E55 /* SplashErrorCodes.h */,
+				53EDFED5BEC935E1E70223C1C2D04711 /* SplashFont.cc */,
+				3CE8526D7D8097C71A1379D5164026D3 /* SplashFont.h */,
+				D5B417290E48543B8AAB516F299397C9 /* SplashFontEngine.cc */,
+				EC39D14AF28BBAF2D6AB8941282AB5C1 /* SplashFontEngine.h */,
+				EDAD2143923F66004FE2CD6F78414935 /* SplashFontFile.cc */,
+				DF0D91C887EFDC9A37B7EEB8D6D8DA48 /* SplashFontFile.h */,
+				ECB04799E72B34692D0C758387B78CC1 /* SplashFontFileID.cc */,
+				12AE00E63744DE697747C3B576B8AB46 /* SplashFontFileID.h */,
+				59E8719CD59F9E304A2343CDE7E0E95A /* SplashFTFont.cc */,
+				8A92A1AB8B6FCE0185A7BFC1ABA3E3CF /* SplashFTFont.h */,
+				CD7974A985682ED30EA9207FF9C1EABC /* SplashFTFontEngine.cc */,
+				64733D3ABABFE4E5883FF19926D97B52 /* SplashFTFontEngine.h */,
+				F433EB471F4F469643A96975540CA223 /* SplashFTFontFile.cc */,
+				3E18103BC3C48C3679D6217488970C2B /* SplashFTFontFile.h */,
+				481C11F4BED80902741DFE4993DA720F /* SplashGlyphBitmap.h */,
+				32237AAB84BA878DF833EEFCAE47E101 /* SplashMath.h */,
+				E6D6B827E8C17E49A9C5EE30A3C6681A /* SplashPath.cc */,
+				470DEB615A6D67F1819A6B045AC733F2 /* SplashPath.h */,
+				0BE0B3130B311A37DA5F793F98F87497 /* SplashPattern.cc */,
+				76FE512289CAE040624E04FB1C2CAE7B /* SplashPattern.h */,
+				71C79709B28EECD2C5926A6FB7BED274 /* SplashScreen.cc */,
+				85198725FBDF46ED81AD36D1B832ED96 /* SplashScreen.h */,
+				6E6357FF729D2C1837B83C36DC600715 /* SplashState.cc */,
+				546BF8FB3C33B554FF8ED3A1B6815B49 /* SplashState.h */,
+				9A092D5FFEB6EA7BBB7486363547C763 /* SplashTypes.h */,
+				E478DE9085B90011F3F8D0EFD803477D /* SplashXPath.cc */,
+				7044214FCCC9942F7707C206DCD81139 /* SplashXPath.h */,
+				3B4BB2B476D18FD5B99112EE06B018BF /* SplashXPathScanner.cc */,
+				FD2B65DBADD939DD30F45A085C7198D1 /* SplashXPathScanner.h */,
+			);
+			path = splash;
+			sourceTree = "<group>";
+		};
+		2FA2DBC836D9C4E9BA9F0FC682CCD0BA /* xpdf */ = {
+			isa = PBXGroup;
+			children = (
+				4880919DBC9220E08A31DAF6AAF0303B /* aconf.h */,
+				8BA4D922AFCE85338F1385A22A55782C /* aconf2.h */,
+				51670E2004D4F32E3CC5E74D8B9BCDEE /* fofi */,
+				087A382EBA552582476F8B3F766A9E63 /* goo */,
+				257D9B36F73AB33CF784133E8DF85E40 /* splash */,
+				E94E2A370B02445508D448BEEBC1D9D6 /* xpdf */,
+			);
+			name = xpdf;
+			path = pdftotxt/Classes/xpdf;
+			sourceTree = "<group>";
+		};
+		51670E2004D4F32E3CC5E74D8B9BCDEE /* fofi */ = {
+			isa = PBXGroup;
+			children = (
+				9FF17FA62F11C19CEA4E590B7842CB90 /* FoFiBase.cc */,
+				ACC44B4CD8693F72B130E28E17F6DDD1 /* FoFiBase.h */,
+				4662571820919714CB1D7E284481E0D7 /* FoFiEncodings.cc */,
+				6B21C312C3C260B49D6CB0EA74F0FF9B /* FoFiEncodings.h */,
+				D91154C7B3A51C289490B704E3CFE621 /* FoFiIdentifier.cc */,
+				9B64373DDC203A637AD7A1690122E5AF /* FoFiIdentifier.h */,
+				0EBA402740FA324234652D405FD41DC8 /* FoFiTrueType.cc */,
+				4FF397A5023D15DC021E62035D1F7ECE /* FoFiTrueType.h */,
+				264E7A2D5F870E861CD899FC9401A6DB /* FoFiType1.cc */,
+				ED83BBC21C9A759838946A2E66786BA4 /* FoFiType1.h */,
+				213F8AF36EEB51343EA99AF2B28CC012 /* FoFiType1C.cc */,
+				CB92A5FAA0D62495540337BBB7D7094A /* FoFiType1C.h */,
+			);
+			path = fofi;
+			sourceTree = "<group>";
+		};
+		6509084F7D5CAB09326C016D983A00FB /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5C4122A6C4A288A0E9F2DE3C80E344A /* pdftotxt */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9213DD40F06F0C7D424FB3E4F0BB8A9B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B18FA82BF521BAEF08C8791AC0FB308C /* Pods-WTRxPDFtoTxt */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		AC15B0B83D0994D6294E4660D0E99DAC /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E18EA10A5241532D1629D03FD5D28805 /* pdftotxt.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B18FA82BF521BAEF08C8791AC0FB308C /* Pods-WTRxPDFtoTxt */ = {
+			isa = PBXGroup;
+			children = (
+				3521D401F05D87C2AC850D93D306BF7F /* Pods-WTRxPDFtoTxt.modulemap */,
+				12FCC37A370A1504AB34F9A3CCEEF931 /* Pods-WTRxPDFtoTxt-acknowledgements.markdown */,
+				8552009F708D12A216F594C44884208D /* Pods-WTRxPDFtoTxt-acknowledgements.plist */,
+				1E5DC730FDA8E4D634B5851223A46F9C /* Pods-WTRxPDFtoTxt-dummy.m */,
+				180C97E9E4FA19470913A233EFCE281C /* Pods-WTRxPDFtoTxt-frameworks.sh */,
+				0102F601A92245645C4D834DB3D02F87 /* Pods-WTRxPDFtoTxt-Info.plist */,
+				10168426473969421E0A42FCBA997AFD /* Pods-WTRxPDFtoTxt-umbrella.h */,
+				280580910F96892F130639E663A410AB /* Pods-WTRxPDFtoTxt.debug.xcconfig */,
+				B02A36194F580D3F5584BAEFEDE03243 /* Pods-WTRxPDFtoTxt.release.xcconfig */,
+			);
+			name = "Pods-WTRxPDFtoTxt";
+			path = "Target Support Files/Pods-WTRxPDFtoTxt";
+			sourceTree = "<group>";
+		};
+		BC6E620D7D55ACE8AEB3545729D9E2BA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7EB0B38B743B55274AAC15A57270E971 /* WTRXPDF.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BDEF8D5A28420BD82D82794095C9BC35 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBB9082233A19C0F4B26465A44D606C2 /* pdftotxt.modulemap */,
+				34283D8F53A9500488271FE4538D418F /* pdftotxt.xcconfig */,
+				E9803C87EF48245DA0D83279C5D2ABF3 /* pdftotxt-dummy.m */,
+				7E09F6C6F8CE19F666693D1EBD7F3E7A /* pdftotxt-Info.plist */,
+				7968CE82FAC314E6DA0B4730024F06D5 /* pdftotxt-prefix.pch */,
+				D1BAF0024D247FFC6680631056F66592 /* pdftotxt-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "WTRxPDFtoTxt/Pods/Target Support Files/pdftotxt";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				6509084F7D5CAB09326C016D983A00FB /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				F6347945CC2B0EEF85966B94BE9E0831 /* Products */,
+				9213DD40F06F0C7D424FB3E4F0BB8A9B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E5C4122A6C4A288A0E9F2DE3C80E344A /* pdftotxt */ = {
+			isa = PBXGroup;
+			children = (
+				A0D15EE5D865C099F76F6855C2722845 /* WTRxPDFManager.h */,
+				90A1CB3A082868C5035D7AFB57A6177F /* WTRxPDFManager.mm */,
+				AC15B0B83D0994D6294E4660D0E99DAC /* Pod */,
+				BC6E620D7D55ACE8AEB3545729D9E2BA /* Resources */,
+				BDEF8D5A28420BD82D82794095C9BC35 /* Support Files */,
+				2FA2DBC836D9C4E9BA9F0FC682CCD0BA /* xpdf */,
+			);
+			name = pdftotxt;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		E94E2A370B02445508D448BEEBC1D9D6 /* xpdf */ = {
+			isa = PBXGroup;
+			children = (
+				1E9642A06B156F37C924B35DFB781C89 /* AcroForm.cc */,
+				BBD95E695159E2E2C0CF0EB065686769 /* AcroForm.h */,
+				4A60DB78D38C03BD507BAF4D98095A5C /* Annot.cc */,
+				2E8035611416FEA21503B5FDF3B07CA6 /* Annot.h */,
+				82E80B1C90CDFDC52FE73E8C8DF44203 /* Array.cc */,
+				33DA2A25D5EDEE408D92C7A6124F1B89 /* Array.h */,
+				717C6C5B9BD9FEC266567073F124CFF3 /* BuiltinFont.cc */,
+				3602AA92659C73BD4A01588E9B2E397C /* BuiltinFont.h */,
+				8FED6706A4317771A9E8020BC1BC41FC /* BuiltinFontTables.cc */,
+				327875F7706A6FD20FD172A9B3FE31B5 /* BuiltinFontTables.h */,
+				2170434D103217AFD3082B48095CBEAA /* Catalog.cc */,
+				E7DAA3B785CBD4706DC731FF4B85D67F /* Catalog.h */,
+				4F15BD5F966FA136B67F1A9B65C1385E /* CharCodeToUnicode.cc */,
+				DAEB8AB512EC755026D2B99B89F0A1B3 /* CharCodeToUnicode.h */,
+				A78DAD8A5A2C15710E6D92A908264889 /* CharTypes.h */,
+				84C77DD20E7B240CA671585E7706F351 /* CMap.cc */,
+				40BD1045F2667F30A339071B246612D9 /* CMap.h */,
+				01722D646A8794985B39FE81E1E763E8 /* CompactFontTables.h */,
+				8F314ECEA02F8FA0A8F5971ACE5AEB98 /* config.h */,
+				69235FC693A463C75524B2E7A40FAE71 /* Decrypt.cc */,
+				150049766332AA76E16B6C0DE6959739 /* Decrypt.h */,
+				2EF0D61428CFFF93E49D166A3ED35D07 /* Dict.cc */,
+				298771C14B5D715BBBC9FEDE69E223DE /* Dict.h */,
+				1CA1D230DC1188C68A4869398513372D /* DisplayState.cc */,
+				E7E0E99D46F1339C961985E9C94133C1 /* DisplayState.h */,
+				9980657938F7045A6DFC0E83467D6AF8 /* Error.cc */,
+				94EA9AF5A4552A9A2AB5390B86F01271 /* Error.h */,
+				F19015ED226CA939D82F317E4A6BDA94 /* ErrorCodes.h */,
+				D2E33CC48DBC5E290EBC2B0FEB6EB77F /* FontEncodingTables.cc */,
+				EE7DE6CE17EB4D4A8882EAA1AEE24205 /* FontEncodingTables.h */,
+				BD28270C17B10C7B84D102735F0DD944 /* Form.cc */,
+				3E7D97BEF6974BCFC69D057F7D35C4C5 /* Form.h */,
+				8CDA6D605E731EDD7EB0B03BE58AA780 /* Function.cc */,
+				79F36B5D163D3A2C4F553E7D678CAA08 /* Function.h */,
+				1994DDD61C7C4287D2CBA97F21D94D7D /* Gfx.cc */,
+				7A8C212BAFEC14386EE152F6AE5872C3 /* Gfx.h */,
+				C1879293B6D65770DA4958DC153544EE /* GfxFont.cc */,
+				424FC45D989CF3BF42093B9E106FD184 /* GfxFont.h */,
+				1AB7A9B60FE98E6A2EF5D15D3222602C /* GfxState.cc */,
+				7ABCBFB1ED6EBFE86CA35E41B71ADD1C /* GfxState.h */,
+				C2985670BEDBFBDFEF00406008DC31BA /* GlobalParams.cc */,
+				DA2CED08C0166A4F51AD5F32AF9F9E4A /* GlobalParams.h */,
+				4640C57AB9D9B3AC9B80F7C4405DDE24 /* ImageOutputDev.cc */,
+				5BD41D9D121B460C9C51C32CB61FFD60 /* ImageOutputDev.h */,
+				90FB550B63A241D073D5A917E8E5A9F2 /* JArithmeticDecoder.cc */,
+				76603F1AE019B038E1AEB67A325D6F2E /* JArithmeticDecoder.h */,
+				4A3DBC376114255211E85A77F27BAA0C /* JBIG2Stream.cc */,
+				7DBC8B5991BAFB72C27A921CD5735B3B /* JBIG2Stream.h */,
+				223BB865BA745F5EEB8AEE9887F2385D /* JPXStream.cc */,
+				0BD6E1998790894205D4E9B74067142A /* JPXStream.h */,
+				B928F26B67F86631ADD2A83F799E3CBE /* Lexer.cc */,
+				AFE6218406544DFF182744F6EA201358 /* Lexer.h */,
+				9A14DA0ACC34391DD9305856B98FBA07 /* Link.cc */,
+				E5C7D6D5E021987D4AD910364FF608D6 /* Link.h */,
+				82EB3E8C2E058B9BCDF167A09D70409F /* NameToCharCode.cc */,
+				29C0289FF2C763D7565A37951AC07286 /* NameToCharCode.h */,
+				D481F5B1514ABA6FEEC3DE3DDFC1DFF8 /* NameToUnicodeTable.h */,
+				85E4895ACD49452F2C7D5D83279E2821 /* Object.cc */,
+				C0056ADD3956150124A088E290301F8F /* Object.h */,
+				B9BCC83D4CA4AC2A5C74AD68EB68D734 /* OptionalContent.cc */,
+				EAA5BA08820F2E1AC7EA43B67AD51B77 /* OptionalContent.h */,
+				80188A273ED64C2C357AF9452C80C33D /* Outline.cc */,
+				1FD1CBAFEE850DC02BC6CCB72056CF34 /* Outline.h */,
+				9CF2A3B48C2774539D2912B2A656E9DE /* OutputDev.cc */,
+				AFA83964906BEBD30BE8DD3548970BEE /* OutputDev.h */,
+				A30CB8D595EC0323E52FA341E8869B68 /* Page.cc */,
+				EFDFB906B1599763593C1A50C4EB91FE /* Page.h */,
+				50E43A56DE04AF59FA45DAC677ECFE29 /* Parser.cc */,
+				1039316083606E50652DD5597D1E896D /* Parser.h */,
+				6A02469D44ED6F750CFA4220C1B5114D /* PDF417Barcode.cc */,
+				DEB800352F8855792D3B9B45B47C1820 /* PDF417Barcode.h */,
+				B3BFDEC52160AA0AFBDAEBB15179EBF1 /* PDFCore.cc */,
+				39C09A17FE669ADAF785E47BA230C03C /* PDFCore.h */,
+				77B40AB748FCBA9E1900998964BDD2EA /* pdfdetach.cc */,
+				E4D2BC20E404432E80F6511C78766647 /* PDFDoc.cc */,
+				081B248A0240C3B7E36AFC511BFBB8AC /* PDFDoc.h */,
+				6AF690A804DD2DAB912D1E2EC1C75A38 /* PDFDocEncoding.cc */,
+				DC92AD234C643FD9835C774E49B7B403 /* PDFDocEncoding.h */,
+				61E884197EDDDD4308C00280BA48EC29 /* pdffonts.cc */,
+				54A84B5E046C2326651BB4082184E6E5 /* pdfimages.cc */,
+				0CC250C8F6355DEF00170CFC2CB84FBB /* pdfinfo.cc */,
+				63840C5E4900DC7CCBDDC69EC21FE002 /* pdftoppm.cc */,
+				E1444BE382A21583928CAE688117E605 /* pdftops.cc */,
+				AA416EC81DC30E4A7B3A4CD37BD06843 /* pdftotext.cc */,
+				A8C82CD1364698B438B18EC978A67939 /* PreScanOutputDev.cc */,
+				30A0DC59EFDDBF50B7B59950F026D418 /* PreScanOutputDev.h */,
+				8E378227E78DD69C0E7D5E9EBA82A1C3 /* PSOutputDev.cc */,
+				5E00BBC4538DD7650F896DD29B5B862E /* PSOutputDev.h */,
+				7FDBDD2372E39C279E66E674D51C21DC /* PSTokenizer.cc */,
+				969A6160B184B8B6270C90E7BF181253 /* PSTokenizer.h */,
+				C16400F759F76B30F72B0EB7C14863B1 /* SecurityHandler.cc */,
+				3DBECC3AA49C7170A794131E660E051A /* SecurityHandler.h */,
+				4C4D8662B7B943217B7249A144CB91AB /* SplashOutputDev.cc */,
+				19BF209F986D08FF215F92E9ED8EF18E /* SplashOutputDev.h */,
+				A99F705AF2A37E7FC4E9826551BCDDD2 /* Stream.cc */,
+				B95147554A45ED27E53DDAB65C51F296 /* Stream.h */,
+				BDAF1C5465CCCA6E905575A2A82091AB /* Stream-CCITT.h */,
+				D283A23EE2C15FCFD853AC252AD8A846 /* TextOutputDev.cc */,
+				07FD992377EEE72F8B8A645EB85C21EF /* TextOutputDev.h */,
+				4D5AA1A690E44F700EE6E3339FD62144 /* TextString.cc */,
+				D86E143CBFC06A9660B7B8D112D1F1B1 /* TextString.h */,
+				4381A089DAF6A2D8C3AF29F8693551C9 /* TileCache.cc */,
+				DA2492F138BFAD137BEA7791512EF605 /* TileCache.h */,
+				CD8D6914F777713B5FD5B5D987394B1A /* TileCompositor.cc */,
+				E9E7700CF4CD5610E35C3BA32B2FA130 /* TileCompositor.h */,
+				C5483A9DB052EEC34F39BD4F47081467 /* TileMap.cc */,
+				CD6D673EB6E42556524F00C023AD830B /* TileMap.h */,
+				F53D208ADBE7E43C5606FEF076117FB4 /* UnicodeMap.cc */,
+				C0649905BDB01DC24DEB345BC3D7DB6E /* UnicodeMap.h */,
+				C3DCEC525AF3A05168F63F3111228888 /* UnicodeMapTables.h */,
+				25E2DF582BA3D793D65A143DF19D6E62 /* UnicodeRemapping.cc */,
+				1696EA05DCD00C9EF6A033B5ECFBCB4C /* UnicodeRemapping.h */,
+				3DFD130D1326492F36E98FC6FF20A788 /* UnicodeTypeTable.cc */,
+				A41D486660E99A8BD4C91FB8E0026ED7 /* UnicodeTypeTable.h */,
+				744F3E8434F25324A8A855326A87280B /* UTF8.cc */,
+				A05508979928B72DBD4D54B6C747AA4A /* UTF8.h */,
+				7959DB9E2FF199EEA3C03813C30CA09A /* XFAForm.cc */,
+				9C545910D4942262ACC65CC95A9577C9 /* XFAForm.h */,
+				3934C816ED0ECF8C77E099536BA16D68 /* XRef.cc */,
+				83267007F7566B851F9FB0CF184F5D92 /* XRef.h */,
+				C680059377C9B2C5D7CCC6F1683D0C0E /* Zoox.cc */,
+				5AEECD3EE0D98C1BE84B436FEE3B9370 /* Zoox.h */,
+			);
+			path = xpdf;
+			sourceTree = "<group>";
+		};
+		F6347945CC2B0EEF85966B94BE9E0831 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8605474119E105DED38E09C6CB61E04B /* pdftotxt.framework */,
+				ABAE665B09A4AC6711DA557E59BD7442 /* Pods_WTRxPDFtoTxt.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4D0DF1673FFE2C95B6D22C6AA599E018 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06FCFE053EE91B6615103BFC3C48B814 /* aconf.h in Headers */,
+				03AAB7A2050B4E596237E317E2C4C070 /* aconf2.h in Headers */,
+				398F918CF06B5FEAF34455C35119B645 /* AcroForm.h in Headers */,
+				449DDDD2EE7FBA07DEF21715746F0640 /* Annot.h in Headers */,
+				5566CA06385E7D5FF96F7CBEE1EB313B /* Array.h in Headers */,
+				6024C4B693345C3046ED6CC090366B75 /* BuiltinFont.h in Headers */,
+				09076CCF887C9130AED5F1751435C266 /* BuiltinFontTables.h in Headers */,
+				88F63B96E6DA62B494F59E5D57403811 /* Catalog.h in Headers */,
+				4AB016966A064830E1BA09D7B73150B1 /* CharCodeToUnicode.h in Headers */,
+				3580B92980350110ED464673C13144EC /* CharTypes.h in Headers */,
+				C9C8420578546652C56CB01A39989EBE /* CMap.h in Headers */,
+				F76E96E2FAEE8FBD7AF55702DEBE739C /* CompactFontTables.h in Headers */,
+				B20624E4A385A75F3E0A8C9289164252 /* config.h in Headers */,
+				B407558479EA90C68E419F09257945AC /* Decrypt.h in Headers */,
+				64C7747300E3E59E35899A9D7CE506B8 /* Dict.h in Headers */,
+				36B9164D7923339A07E33BF25A0FEFA5 /* DisplayState.h in Headers */,
+				316B436ED54D4D5ECD617966AB9DCFBB /* Error.h in Headers */,
+				74D30ED50A9E2586D9F0549859E14DFB /* ErrorCodes.h in Headers */,
+				08F40CABE3A96B6CE5CBD22DE1014F44 /* FixedPoint.h in Headers */,
+				874B7703176ACCF73D41DCDFFE77C46B /* FoFiBase.h in Headers */,
+				C069AD6D7A076632112F99A4D109F4D5 /* FoFiEncodings.h in Headers */,
+				6CD04C5523A5BF5C1361A0CE601079AF /* FoFiIdentifier.h in Headers */,
+				F0BA827E1DC3347A0D36937167484BB7 /* FoFiTrueType.h in Headers */,
+				00CD1D36EA0D8CBCF9F22200C22500A3 /* FoFiType1.h in Headers */,
+				78E8C647F5FE1FFCCEF2E9A31C072EDE /* FoFiType1C.h in Headers */,
+				CA76AB48F830B92F9E014A17545294EE /* FontEncodingTables.h in Headers */,
+				0921F6E07C23965B748B37F69A47F28D /* Form.h in Headers */,
+				078B6D79399C4C31FD194767E10D0C00 /* Function.h in Headers */,
+				727793B3ACDD5C7BF97997228358D98B /* gfile.h in Headers */,
+				B5A32A576DDD86E22CD15F9CB8C1C8BE /* Gfx.h in Headers */,
+				E2082E3015D96749650608FC8A21C4F5 /* GfxFont.h in Headers */,
+				008A4621FAC27A09C82B4A9D696011C6 /* GfxState.h in Headers */,
+				9883CDE821CE2980B162C37EC9C649DE /* GHash.h in Headers */,
+				9FCD046DC7B05D27A8EFC3CE930B5E17 /* GList.h in Headers */,
+				85145CF00EDDC539474A82EFE0D39948 /* GlobalParams.h in Headers */,
+				159AD9D9BBA69B161E7E9695C8D3AD1B /* gmem.h in Headers */,
+				72AA9EDC5AE4169E0F00B9C3417E0F12 /* gmempp.h in Headers */,
+				D3A9501E7C0777E0A67B9A94C09D2C26 /* GMutex.h in Headers */,
+				030898EAC4FB4A2C2D17ECDF9D3552B2 /* GString.h in Headers */,
+				80E52A4630BB250115607280831CA7CE /* gtypes.h in Headers */,
+				BE136236BC8F32CFDC314CD379F04DBA /* ImageOutputDev.h in Headers */,
+				A7D8C639C4FE5B5A821232874AF7D4C1 /* JArithmeticDecoder.h in Headers */,
+				90D83E53D5A7479C80A9F23398D5B370 /* JBIG2Stream.h in Headers */,
+				E119D7B2F1BD01B65F0147601F8C03DC /* JPXStream.h in Headers */,
+				8E4F760BCC4A12D2E359279069D8E866 /* Lexer.h in Headers */,
+				2FAC434E3434D72946B48725A5AE92B9 /* Link.h in Headers */,
+				1FE8B9934C263C91BEAA96160BD95720 /* NameToCharCode.h in Headers */,
+				6B459CD870C33E0898FC0B8CCC7AFF97 /* NameToUnicodeTable.h in Headers */,
+				DA176AA884CBFE4A2CFD907CAD20DB89 /* Object.h in Headers */,
+				6228E7A12A99F82813C6B5186D37694D /* OptionalContent.h in Headers */,
+				FC450B0B2107E72C83D5183CF081E4F1 /* Outline.h in Headers */,
+				FB12A311160AFAAF0E5DBBE534D16848 /* OutputDev.h in Headers */,
+				5C3AB4DD5AEFAC6C6AD214E1C357E03F /* Page.h in Headers */,
+				74B77FAA147E02705512312572FD8FB4 /* parseargs.h in Headers */,
+				8D29C79CE2139E2F7B66E8565088E207 /* Parser.h in Headers */,
+				227021CBA3F4CCBF3BAD6CEBC84D9FBF /* PDF417Barcode.h in Headers */,
+				93DAE243063DDADE311B79492B3F8A74 /* PDFCore.h in Headers */,
+				0AA558E85DC5025681ECCFC925932BCC /* PDFDoc.h in Headers */,
+				479172D82866D1EFE4731CEF502E8766 /* PDFDocEncoding.h in Headers */,
+				0484871D8D4E371847435E7DCD55E830 /* pdftotxt-umbrella.h in Headers */,
+				A11DB6C04133643CC6EE5B2415F69CF5 /* PreScanOutputDev.h in Headers */,
+				29C91DCFB44DA96F41E9662753BE8FFC /* PSOutputDev.h in Headers */,
+				1A9E000436CD8764A9EB0DBBA2762DF7 /* PSTokenizer.h in Headers */,
+				F4C5469695AF20305D34BD13F0218943 /* SecurityHandler.h in Headers */,
+				647D25C3877DA6955801BB4A150E553D /* Splash.h in Headers */,
+				9724ABE887296509A8519CEF81469370 /* SplashBitmap.h in Headers */,
+				39EA94ADE9255758ED4510F7639AD0A2 /* SplashClip.h in Headers */,
+				BD0179B4E2F4AF93A19F0E0BDD738F3F /* SplashErrorCodes.h in Headers */,
+				CCD900E412628656D9BC6DA07E251A98 /* SplashFont.h in Headers */,
+				A7DC606BB8DF99DF70CF68B9027B7ACA /* SplashFontEngine.h in Headers */,
+				6922C74392A24153C312DED9911AAF19 /* SplashFontFile.h in Headers */,
+				AF4525C1AE69CA78A4EABFA009F205D2 /* SplashFontFileID.h in Headers */,
+				34D0D27DF5CCE3189BA558981C366F9B /* SplashFTFont.h in Headers */,
+				F7DAA655F971BD01B23BCF16033F4371 /* SplashFTFontEngine.h in Headers */,
+				FB42D45FF38B1B3913FA2BDD1EC60F14 /* SplashFTFontFile.h in Headers */,
+				2D4E37F3B1CF1D0BD232181168289669 /* SplashGlyphBitmap.h in Headers */,
+				77DF5E7E6372F62E96B7EB4396091FDC /* SplashMath.h in Headers */,
+				AC782A02BD5B61062C5CD9CCB7729E33 /* SplashOutputDev.h in Headers */,
+				29A1D01AD1F0BF2281E348AEE23D674D /* SplashPath.h in Headers */,
+				81A07A78B2855959BA968C200DCBE90D /* SplashPattern.h in Headers */,
+				A7F2FBAD0757903AD2D10A6E55C2D75C /* SplashScreen.h in Headers */,
+				43B9E4007B1E38D96ECF794D091D1BE8 /* SplashState.h in Headers */,
+				29C44AEACA21BB16FE8FD208C6D8AF92 /* SplashTypes.h in Headers */,
+				FCD6A9E7C97CA6EE3156AD61EFE20467 /* SplashXPath.h in Headers */,
+				E807C8067DE2B4C03AE7B5753BE2C229 /* SplashXPathScanner.h in Headers */,
+				DDCAB4A2ADD4B15E8515A0CF1AEE774B /* Stream-CCITT.h in Headers */,
+				0A4BD1FB7E6506C4F6B6B8E3ADF1EC1C /* Stream.h in Headers */,
+				0C931F749E5CB5635C172AD9AD7DC009 /* TextOutputDev.h in Headers */,
+				65BC3CD8A8FD2A68A747333712496F2D /* TextString.h in Headers */,
+				5D63EF0691AF5FECE4DC3F10D6C0F0AB /* TileCache.h in Headers */,
+				E8B7D6F358347909144019F2752B8FB4 /* TileCompositor.h in Headers */,
+				2A40D067F0E7B4D75AF9A23A74E42004 /* TileMap.h in Headers */,
+				EFA70D252576A0DE3F9500AF3DBAA913 /* UnicodeMap.h in Headers */,
+				913497C1F9FAC9782C376BBE8F2294C0 /* UnicodeMapTables.h in Headers */,
+				9021AC096C8084965B0E092014660810 /* UnicodeRemapping.h in Headers */,
+				C33446D34C45076C96F29C58F73CCB29 /* UnicodeTypeTable.h in Headers */,
+				E5AC292EB03DB809F1F8CC06FA088A57 /* UTF8.h in Headers */,
+				B5F54ED9041644169A9AC99BD048A9E9 /* WTRxPDFManager.h in Headers */,
+				BE1C5A3312AA04383FA717DC5B4948E4 /* XFAForm.h in Headers */,
+				B170FC9FCCB4D116D4887E1C54530900 /* XRef.h in Headers */,
+				9D964AF864CD06D5F4C5391BA1283391 /* Zoox.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6D78094D20D21B64B67B61930D01448 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA8F13839068C30F7053018B85BA96D /* Pods-WTRxPDFtoTxt-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0041A1165DBC26AAD8DC3ADD48A4B599 /* Pods-WTRxPDFtoTxt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BB4286B6F925E1F1C5A45C4D0FED938 /* Build configuration list for PBXNativeTarget "Pods-WTRxPDFtoTxt" */;
+			buildPhases = (
+				D6D78094D20D21B64B67B61930D01448 /* Headers */,
+				43A830D4C262A070C3941F3B8AEA43E1 /* Sources */,
+				77BBBE6F06081FB6AE4961C095372E9D /* Frameworks */,
+				5C9F65C41EF5E0BAAED74572DDC83B2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CD1CDA93EBE89B65917B81056CFA273 /* PBXTargetDependency */,
+			);
+			name = "Pods-WTRxPDFtoTxt";
+			productName = "Pods-WTRxPDFtoTxt";
+			productReference = ABAE665B09A4AC6711DA557E59BD7442 /* Pods_WTRxPDFtoTxt.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		970E661D910095FF25C3148701B7317B /* pdftotxt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6E19B4004485CB99E0674FE66F85BE1 /* Build configuration list for PBXNativeTarget "pdftotxt" */;
+			buildPhases = (
+				4D0DF1673FFE2C95B6D22C6AA599E018 /* Headers */,
+				DB8CB367BFC64B84E6C53D93AC467114 /* Sources */,
+				184440DB8FC3DF46225FB622A2652043 /* Frameworks */,
+				1FFA0C7F9B6B72960638D2874076A914 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pdftotxt;
+			productName = pdftotxt;
+			productReference = 8605474119E105DED38E09C6CB61E04B /* pdftotxt.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F6347945CC2B0EEF85966B94BE9E0831 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				970E661D910095FF25C3148701B7317B /* pdftotxt */,
+				0041A1165DBC26AAD8DC3ADD48A4B599 /* Pods-WTRxPDFtoTxt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FFA0C7F9B6B72960638D2874076A914 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA2B0EC9F9CBFB09D1C3D7CA4A971AA /* WTRXPDF.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C9F65C41EF5E0BAAED74572DDC83B2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43A830D4C262A070C3941F3B8AEA43E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80DEBCEE3459F75D16174817A25FAE50 /* Pods-WTRxPDFtoTxt-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB8CB367BFC64B84E6C53D93AC467114 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AD70C33E6FC965A383CCCE7FF3F2C53 /* AcroForm.cc in Sources */,
+				DC2C979FFD04C6D445860F4C2A6D4614 /* Annot.cc in Sources */,
+				6CB7577436D240017B646E9571E50E72 /* Array.cc in Sources */,
+				908B74AAD68B6BC83B498CB9F971DC47 /* BuiltinFont.cc in Sources */,
+				9EE2E1E6F92AAF528C152FD7318D946D /* BuiltinFontTables.cc in Sources */,
+				674F8A4921F9FC1AF847352CD2C7A2DC /* Catalog.cc in Sources */,
+				60C264230391ED3FC0905488B6D99522 /* CharCodeToUnicode.cc in Sources */,
+				7578E585E67CB36C127DD7FAF72BFBBF /* CMap.cc in Sources */,
+				6508B853B3C5530B47A46E6329A0C8E5 /* Decrypt.cc in Sources */,
+				D9073451C791D89A12D089F2E4FDFADE /* Dict.cc in Sources */,
+				536D08C416F6937530FB7D7944F47DCB /* DisplayState.cc in Sources */,
+				B358680FCCACB245645351A9286B4D66 /* Error.cc in Sources */,
+				553F2D28DB4972D3269F212DF436AD31 /* FixedPoint.cc in Sources */,
+				6FBA04132401B0E2BF77327148EF0010 /* FoFiBase.cc in Sources */,
+				204B1F33CFB24D7C1B07E29747CBEAAA /* FoFiEncodings.cc in Sources */,
+				BDE373C4B63B7946B3A4B0AD122CDB6F /* FoFiIdentifier.cc in Sources */,
+				E5DC08B684959D446BA384D9EBD3B773 /* FoFiTrueType.cc in Sources */,
+				8C69C7C11B810842585D4C755DB9BE60 /* FoFiType1.cc in Sources */,
+				0F5FE6D1AC951CE03AB0B991C0565DDE /* FoFiType1C.cc in Sources */,
+				ED5FDFF240A0799FD3F9450C05963FF4 /* FontEncodingTables.cc in Sources */,
+				E711F3FBE5FF3909B09831FB2D58C15C /* Form.cc in Sources */,
+				C623AB7BAC99BB12934FBBA0B41E9A4B /* Function.cc in Sources */,
+				F50E4268C892D53341B570197BA279AB /* gfile.cc in Sources */,
+				C1232545E2773BBD64707CB16549A2FC /* Gfx.cc in Sources */,
+				4C7658A97F9E3CAD414972D8738D9104 /* GfxFont.cc in Sources */,
+				AFBF97F0FF2FDE9296765939E081D6D4 /* GfxState.cc in Sources */,
+				A1F968AB7EA30209A287C1FE975BFFBE /* GHash.cc in Sources */,
+				CAE0B1FD9A138D2B4C0FA9048898891C /* GList.cc in Sources */,
+				62FD7FBE124EA4A1FC977B6D4D9197B5 /* GlobalParams.cc in Sources */,
+				81E394E44B305A486BA1CAD3D63022A2 /* gmem.cc in Sources */,
+				3F16E4A0D05626437EEBA2D0B48FD147 /* gmempp.cc in Sources */,
+				A40548FEB47CA3D142298F830997E509 /* GString.cc in Sources */,
+				5A224A50EA5E948B3166EC9C938AEF3C /* ImageOutputDev.cc in Sources */,
+				5C311D4CADA3E08F0F0E4836C21E90F0 /* JArithmeticDecoder.cc in Sources */,
+				9EC9AC9AC778C8F5D81545EC45907471 /* JBIG2Stream.cc in Sources */,
+				728D40948EEC7F974A760811839C364A /* JPXStream.cc in Sources */,
+				2713AA69CF8E599DD61AA8592D2E5A94 /* Lexer.cc in Sources */,
+				6A7D050FC94C2F1C278421701D893709 /* Link.cc in Sources */,
+				28A6A9E8DED4EB837340ABD1C74A638C /* NameToCharCode.cc in Sources */,
+				167666C51B0561138B02A40D07DC12CC /* Object.cc in Sources */,
+				71F8AFE23712A6843D06E26F66EE2188 /* OptionalContent.cc in Sources */,
+				AED2D1A85047A6839FCFEA2A4DCC40CE /* Outline.cc in Sources */,
+				41EB1AA31F9D6837948205A4209855B2 /* OutputDev.cc in Sources */,
+				B0C3602FCBC921776389551D987CF7C3 /* Page.cc in Sources */,
+				DB87BC7DA665B462B3C6318031BC6ECC /* parseargs.c in Sources */,
+				927C88FC0E2BAF191ED8FBB91CE341B2 /* Parser.cc in Sources */,
+				0B07EFB38FCC534776514F38D12BC454 /* PDF417Barcode.cc in Sources */,
+				0569E0FAC35D307F20145313F8F9BC6A /* PDFCore.cc in Sources */,
+				5BADC58C667F20D3EF8AF3D0C9EE67B5 /* pdfdetach.cc in Sources */,
+				24C004121AAAA52DE5773C3461B00D8A /* PDFDoc.cc in Sources */,
+				0A93BCB929A4621132B34F0E3DE48D5D /* PDFDocEncoding.cc in Sources */,
+				20FCBFCFEAE222BA81CA0773A20DE0E9 /* pdffonts.cc in Sources */,
+				8F99CBAFC1B82FE46ADFEE25980C3A91 /* pdfimages.cc in Sources */,
+				05945EB6419916EF5D74CE849460DBC5 /* pdfinfo.cc in Sources */,
+				B413EF7E75DC2EC4D15F85E7DF07F86A /* pdftoppm.cc in Sources */,
+				AFF7E289967B445966D45566DD6646A4 /* pdftops.cc in Sources */,
+				C72A8AC092BCC575D4F071815A2D1A21 /* pdftotext.cc in Sources */,
+				562F673E3C4D56C6A13C77A39B24A741 /* pdftotxt-dummy.m in Sources */,
+				33C19BF3AFC1627E63C65EFA888D57CF /* PreScanOutputDev.cc in Sources */,
+				A425F7DD4CD2C07C451EE2B2D728BBDA /* PSOutputDev.cc in Sources */,
+				ABCCC68CE6FAA097F526C42E311DE0AC /* PSTokenizer.cc in Sources */,
+				BAE9C4DC20BF3D3CD7E9E06544FFD2AF /* SecurityHandler.cc in Sources */,
+				0B114D223A528B71C2A526FA0A3371AD /* Splash.cc in Sources */,
+				65BAD40D4F71008EBFC518160C1C44CB /* SplashBitmap.cc in Sources */,
+				D423773D122D0B8C13C9778DB698243F /* SplashClip.cc in Sources */,
+				F3703F5A235450BEACB2EACEEDD33804 /* SplashFont.cc in Sources */,
+				E94847564A79CAE2764C86D205FC9E88 /* SplashFontEngine.cc in Sources */,
+				0FF2F9DA86973B9800D876DE03639CC2 /* SplashFontFile.cc in Sources */,
+				7BBA07422CBAB7982BDF1535CB3A1061 /* SplashFontFileID.cc in Sources */,
+				4992B0C8EDF6ECFC084E2478DE88F155 /* SplashFTFont.cc in Sources */,
+				FF62299B9EDD7E03408A563D096F6B71 /* SplashFTFontEngine.cc in Sources */,
+				D113D94D568254264D32539BCBAD907D /* SplashFTFontFile.cc in Sources */,
+				5340B7F9AF3C3EE87A3362B75F86970F /* SplashOutputDev.cc in Sources */,
+				BFA16BB14F2C8B9B2EBE18C06A8211F9 /* SplashPath.cc in Sources */,
+				93B03C85D37374EC7F72C1A774043202 /* SplashPattern.cc in Sources */,
+				680BF14D837271E9A4780F01EC7B30AC /* SplashScreen.cc in Sources */,
+				F8FDAC34B3EE297C063FF31440C075D4 /* SplashState.cc in Sources */,
+				12009DF73BDE4E42E933E35E836223B5 /* SplashXPath.cc in Sources */,
+				D6A4784BD6AA9B18BF91EEAA3CE74835 /* SplashXPathScanner.cc in Sources */,
+				682D835FFDE846DC4DEA1D044DAE0D60 /* Stream.cc in Sources */,
+				3155815E3F7E363B27F5E299E40E5B40 /* TextOutputDev.cc in Sources */,
+				D7620DA2D535432BF87AA520B053C002 /* TextString.cc in Sources */,
+				C03021C670BF56EF9F79BBCEFBCB9ABC /* TileCache.cc in Sources */,
+				AE3020E2805B9A1C3CEC97E7E9E4403D /* TileCompositor.cc in Sources */,
+				EE1C1066300FE03BCE005D77E457A923 /* TileMap.cc in Sources */,
+				A82F13AB24A24026DAF1DC8CD43B3217 /* UnicodeMap.cc in Sources */,
+				A63832F238B95B744E1A1C7ADDA0CDF6 /* UnicodeRemapping.cc in Sources */,
+				5894BC993DF056108B5D0F2B08FA0C55 /* UnicodeTypeTable.cc in Sources */,
+				65CA454343B39F33636D55B4B52E92D1 /* UTF8.cc in Sources */,
+				E921D95D0244CD8A38EF3CB3AA86C477 /* WTRxPDFManager.mm in Sources */,
+				BC4D0C51327C052B7C2F280F2F6A3EE1 /* XFAForm.cc in Sources */,
+				4687052B35B82A4FADCD02A3387292EF /* XRef.cc in Sources */,
+				C883E9213370B705C844A1E796420513 /* Zoox.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6CD1CDA93EBE89B65917B81056CFA273 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = pdftotxt;
+			target = 970E661D910095FF25C3148701B7317B /* pdftotxt */;
+			targetProxy = 8CC476E3D61D00B996A1661C5215ADDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05DF210AC65EBB0E593AAF976B2C2177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		421ECB1396280A8D83853C3DDBED1700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5F7252861B92C4351C4C688736891551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B02A36194F580D3F5584BAEFEDE03243 /* Pods-WTRxPDFtoTxt.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WTRxPDFtoTxt/Pods-WTRxPDFtoTxt-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WTRxPDFtoTxt/Pods-WTRxPDFtoTxt.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A9FF328F7534F352E72940A510889F9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34283D8F53A9500488271FE4538D418F /* pdftotxt.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/pdftotxt/pdftotxt-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/pdftotxt/pdftotxt-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/pdftotxt/pdftotxt.modulemap";
+				PRODUCT_MODULE_NAME = pdftotxt;
+				PRODUCT_NAME = pdftotxt;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AF730065F7CE68FDFD1E70D4E66716B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34283D8F53A9500488271FE4538D418F /* pdftotxt.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/pdftotxt/pdftotxt-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/pdftotxt/pdftotxt-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/pdftotxt/pdftotxt.modulemap";
+				PRODUCT_MODULE_NAME = pdftotxt;
+				PRODUCT_NAME = pdftotxt;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C932341F7361A85EDE0FD3430207B18C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 280580910F96892F130639E663A410AB /* Pods-WTRxPDFtoTxt.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WTRxPDFtoTxt/Pods-WTRxPDFtoTxt-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WTRxPDFtoTxt/Pods-WTRxPDFtoTxt.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BB4286B6F925E1F1C5A45C4D0FED938 /* Build configuration list for PBXNativeTarget "Pods-WTRxPDFtoTxt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C932341F7361A85EDE0FD3430207B18C /* Debug */,
+				5F7252861B92C4351C4C688736891551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421ECB1396280A8D83853C3DDBED1700 /* Debug */,
+				05DF210AC65EBB0E593AAF976B2C2177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6E19B4004485CB99E0674FE66F85BE1 /* Build configuration list for PBXNativeTarget "pdftotxt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF730065F7CE68FDFD1E70D4E66716B6 /* Debug */,
+				A9FF328F7534F352E72940A510889F9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
